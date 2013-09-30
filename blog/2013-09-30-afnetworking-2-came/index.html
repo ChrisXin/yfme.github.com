@@ -70,6 +70,9 @@
 
 <time datetime="2013-09-30T20:04:00+08:00" pubdate data-updated="true">Sep 30<span>th</span>, 2013</time>
         
+      
+      | <a href="#comments">Comments</a>
+      
       </p>
     
   </header>
@@ -147,12 +150,12 @@
 <p>AFNetworking 支持 <a href="http://blog.lumberlabs.com/2012/04/why-app-developers-should-care-about.html">SSL pinning</a>。这对涉及敏感数据的 App 很重要。
   * <code>AFSecurityPolicy</code> &ndash; 这个类通过特定证书和公共密钥评估链接的安全性和可信任度。在你的 App bundle 中添加服务器证书有助于防止“<a href="http://zh.wikipedia.org/wiki/%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%94%BB%E5%87%BB">中间人攻击</a>”。</p>
 
-<h6>可达性（Reachability）</h6>
+<h5>可达性（Reachability）</h5>
 
 <p>另一个从 AFHTTPClient 中分离的功能是网络的可达性。现在你可以单独使用它，或者作为 AFHTTPRequestOperationManager / AFHTTPSessionManager 的一个属性。
   * <code>AFNetworkReachabilityManager</code> &ndash; 负责监控当前的网络可达性，当网络的可达性发生改变时，提供相应的 callback 和通知。</p>
 
-<h6>实时</h6>
+<h5>实时</h5>
 
 <ul>
 <li><code>AFEventSource</code> &ndash; 用 Objective-C 实现的 <a href="http://en.wikipedia.org/wiki/Server-sent_events">EventSource DOM API</a>。客户端和服务器建立一个长链接，服务器会把新的 Event 实时推给客户端。客户端收到的信息格式是<a href="http://tools.ietf.org/html/rfc6902">JSON Patch</a>，然后 JSON Patch 被转化为 AFJSONPatchOperation 对象。示例代码参考：</li>
@@ -196,7 +199,7 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<h6>UIKit 扩展</h6>
+<h5>UIKit 扩展</h5>
 
 <p>2.0 的中所有 UIKit 扩展都被分离出来并进行了增强。</p>
 
@@ -236,6 +239,7 @@
     </p>
   </footer>
 </article>
+
 
 
 </div>
