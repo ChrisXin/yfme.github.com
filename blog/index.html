@@ -9,7 +9,7 @@
   <meta name="author" content="Fei Yang">
 
   
-  <meta name="description" content="A nice quote by Tywin Lannister taken from A Storm of Sword book. The greatest fools are ofttimes more clever then the men who laugh at them.Tywin &hellip;">
+  <meta name="description" content="前几天 Mattt 发布了 AFNetworking 2.0，我的一个最大感慨就是，他怎么那么高产？ 关于 Mattt Mattt 是一位非常活跃的 iOS 开发大牛，从 AFNetworking 1.0 开始 follow 他。当时从他 AFNetworking 和 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -55,7 +55,7 @@
     <article class="post">
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013-06-15-tywin-lannister-quote/">Tywin Lannister Quote</a></h1>
+      <h1 class="entry-title"><a href="/blog/2013-09-30-afnetworking-2-came/">AFNetworking 2.0 来了</a></h1>
     
     
       <p class="meta">
@@ -71,17 +71,164 @@
   
 
 
-<time datetime="2013-06-15T09:28:00+08:00" pubdate data-updated="true">Jun 15<span>th</span>, 2013</time>
+<time datetime="2013-09-30T20:04:00+08:00" pubdate data-updated="true">Sep 30<span>th</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>A nice quote by Tywin Lannister taken from <em>A Storm of Sword</em> book.</p>
+  <div class="entry-content"><p>前几天 Mattt 发布了 AFNetworking 2.0，我的一个最大感慨就是，他怎么那么高产？</p>
 
-<blockquote><p>The greatest fools are ofttimes more clever then the men who laugh at them.</p><footer><strong>Tywin Lannister</strong> <cite>A Storm of Swords</cite></footer></blockquote>
+<h2>关于 Mattt</h2>
 
+<p>Mattt 是一位非常活跃的 iOS 开发大牛，从 AFNetworking 1.0 开始 follow 他。当时从他 AFNetworking 和 TTTAttributedLabel 等开源代码中学到了很多。他现在是 Heroku 的 Mobile Lead。</p>
+
+<p>我一直觉得一个团队要想为开发者提供优秀的服务，这个团队本身应该足够 hacker 足够酷，比如 Github，这群人以及他们所做的事真的是非常帅。 Heroku 也不错，他们的首席架构师就是 Ruby 之父松本行弘，他们让 Web 开发变得如此的轻松。</p>
+
+<p>我觉得 Mattt 确实是个 hacker，并且是个非常具有开源精神的 hacker。他的很多项目我都觉得非常有趣，这里列出一些。更多信息关注他的Github账号(<a href="https://github.com/mattt">@mattt</a>)和Twitter账户(<a href="https://twitter.com/mattt">@mattt</a>)。</p>
+
+<ul>
+<li><a href="http://asciiwwdc.com/">asciiwwdc</a> &ndash; searchable full-text transcripts of WWDC sessions</li>
+<li><a href="http://afnetworking.com/">afnetworking 2.0</a> &ndash; a delightful networking library for iOS and Mac OS X</li>
+<li><a href="http://nshipster.com/">nshipster</a> &ndash; a journal of the overlooked bits in Objective-C and Cocoa</li>
+<li><a href="https://github.com/helios-framework/helios">helios</a> &ndash; an extensible open-source mobile backend framework</li>
+<li><a href="http://nomad-cli.com/">nomad</a> &ndash; world-class command line utilities for iOS development</li>
+<li><a href="http://rocket.github.io/">rocket</a> &ndash; a hybrid approach to real-time cloud applications</li>
+</ul>
+
+
+<h2>关于 AFNetworking</h2>
+
+<p>AFNetworking 是一个用于 iOS 和 OS X 开发的网络请求框架，始于 2011 年 5月，那时候 Mattt 还在 Gowalla （Foursquare的竞争对手，后被Facebook收购）工作。基于苹果的一个Demo <a href="https://developer.apple.com/library/ios/samplecode/mvcnetworking/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010443-Intro-DontLinkElementID_2">MVCNetworking</a>，Mattt 开始了 AFNetworking。当时 ASIHTTPRequest 还很流行，但很快更多的程序员发现 AFNetwoking 是更为现代的解决方案，所以它逐渐开始流行。现在，AFNetworking 有 9000+ stars，2300+ forks，是 Objective-C 开源社区最火的框架。</p>
+
+<h2>重点介绍 AFNetworking 2.0</h2>
+
+<p>AFNetworking 在易用性和扩展性之间平衡得非常好，但这并不是说它没有改进的空间。AFNetworking 2.0 的目标是调整原始设计中的一些奇怪的地方，同时添加强大的新架构，帮助新一代的应用程序变得更为强大。</p>
+
+<h3>1.目的</h3>
+
+<h5>兼容 NSURLSession</h5>
+
+<p>在 iOS7 中 NSURLConnection 被 NSURLSession 取代，但 NSURLConnection 并没有被 deprecated，在一段时间内依然可用。不过，NSURLSession 才是未来，它解决了 NSURLConnection 的很多缺点。有人可能会说有 NSURLSession 还需要 AFNetworking 么，二者确实有重叠的地方，但 AFNetworking 作为一个更上层的抽象类，能提供的更多。2.0 兼容并扩展了 NSURLSession，铺平其中艰难的路线，最大限度的提高了易用性。</p>
+
+<h5>模块化</h5>
+
+<p>AFNetworking 1.0 被批评的一个地方是，它有点臃肿。其实 1.0 在类的层次上很具有模块化，但文件封装的不够方便，没办法单独分离出某个功能模块。随着时间的推移，特别是像 AFHTTPClient 这样的类，会变得很臃肿（创建请求，序列化请求参数，响应和解析，创建和管理各种操作，监控网络的可用性等都堆在一起）。在 2.0 中，你可以只挑选你需要的模块，可以通过 CocoaPods subspecs 使用，很方便。</p>
+
+<h5>实时</h5>
+
+<p>2.0 遵循 Rocket 技术，Rocket 是在现有的 REST 服务器之上，通过一些 Web 标准（如<a href="http://dev.w3.org/html5/eventsource/">Server-Sent Events</a>，<a href="http://tools.ietf.org/html/rfc6902">JSON Patch</a>），实现实时的数据更新，详情参考前文列表中的链接。</p>
+
+<h3>2. 实现</h3>
+
+<h5>NSURLConnection (iOS 6 &amp; 7)</h5>
+
+<ul>
+<li><code>AFURLConnectionOperation</code> &ndash; 它继承于 NSOperation，负责管理 NSURLConnection，实现它的 delegate 方法。</li>
+<li><code>AFHTTPRequestOperation</code> &ndash; 它继承于 AFURLConnectionOperation，专门用于创建 HTTP 请求。2.0 的主要区别就是可以直接使用它，而不用再继承它，原因将会在下面的 Serialization 处解释。</li>
+<li><code>AFHTTPRequestOperationManager</code> &ndash; 封装 HTTP 请求的常见方式，GET / POST / PUT / DELETE / PATCH……</li>
+</ul>
+
+
+<h5>NSURLSession (iOS 7)</h5>
+
+<ul>
+<li><code>AFURLSessionManager</code> &ndash; 创建和管理 NSURLSession 对象，以及此对象的数据和下载/上传等任务，实现对象和任务的代理方法。NSURLSession 的 API 本身有一些局限，AFURLSessionManager 能使其变得更好用。</li>
+<li><p><code>AFHTTPSessionManager</code> &ndash; 它继承于 AFURLSessionManager，封装了 HTTP 请求的常见方式，GET / POST / PUT / DELETE / PATCH……</p>
+
+<p><em>总的来说：为了支持最新的 NSURLSession 接口，同时兼容旧的 NSURLConnection，2.0 的核心组件将“网络请求”和“任务处理”分离。 AFHTTPRequestOperationManager 和 AFHTTPSessionManager 提供相似的功能，切换很方便，所以从 iOS 6 移植到 iOS 7 会很容易。之前绑在 AFHTTPClient 里的 serialization、security 和 reachability 模型都被分离了出来，基于 NSURLSession 和 NSURLConnection 的 API 都可复用这些模型。</em></p></li>
+</ul>
+
+
+<h5>序列化（Serialization）</h5>
+
+<p>2.0 架构的一个突破就是，请求和解析的可序列化。序列化的灵活性允许在网络层添加更多的商业逻辑，自定义更方便。<code>&lt;AFURLRequestSerializer&gt;</code> 和 <code>&lt;AFURLResponseSerializer&gt;</code> 这两个协议，让你在 1.0 中的一些抱怨不复存在。</p>
+
+<h5>安全</h5>
+
+<p>AFNetworking 支持 <a href="http://blog.lumberlabs.com/2012/04/why-app-developers-should-care-about.html">SSL pinning</a>。这对涉及敏感数据的 App 很重要。
+  * <code>AFSecurityPolicy</code> &ndash; 这个类通过特定证书和公共密钥评估链接的安全性和可信任度。在你的 App bundle 中添加服务器证书有助于防止“<a href="http://zh.wikipedia.org/wiki/%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%94%BB%E5%87%BB">中间人攻击</a>”。</p>
+
+<h6>可达性（Reachability）</h6>
+
+<p>另一个从 AFHTTPClient 中分离的功能是网络的可达性。现在你可以单独使用它，或者作为 AFHTTPRequestOperationManager / AFHTTPSessionManager 的一个属性。
+  * <code>AFNetworkReachabilityManager</code> &ndash; 负责监控当前的网络可达性，当网络的可达性发生改变时，提供相应的 callback 和通知。</p>
+
+<h6>实时</h6>
+
+<ul>
+<li><code>AFEventSource</code> &ndash; 用 Objective-C 实现的 <a href="http://en.wikipedia.org/wiki/Server-sent_events">EventSource DOM API</a>。客户端和服务器建立一个长链接，服务器会把新的 Event 实时推给客户端。客户端收到的信息格式是<a href="http://tools.ietf.org/html/rfc6902">JSON Patch</a>，然后 JSON Patch 被转化为 AFJSONPatchOperation 对象。示例代码参考：</li>
+</ul>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>NSURL *URL <span class="o">=</span> <span class="o">[</span>NSURL URLWithString:@<span class="s2">&quot;http://example.com&quot;</span><span class="o">]</span>;
+</span><span class='line'>AFHTTPSessionManager *manager <span class="o">=</span> <span class="o">[[</span>AFHTTPClient alloc<span class="o">]</span> initWithBaseURL:URL<span class="o">]</span>;
+</span><span class='line'><span class="o">[</span>manager GET:@<span class="s2">&quot;/resources&quot;</span> parameters:nil success:^<span class="o">(</span>NSHTTPURLResponse *response, id responseObject<span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>    <span class="o">[</span>resources addObjectsFromArray:responseObject<span class="o">[</span>@<span class="s2">&quot;resources&quot;</span><span class="o">]]</span>;
+</span><span class='line'>
+</span><span class='line'>    <span class="o">[</span>manager SUBSCRIBE:@<span class="s2">&quot;/resources&quot;</span> usingBlock:^<span class="o">(</span>NSArray *operations, NSError *error<span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>        <span class="k">for</span> <span class="o">(</span>AFJSONPatchOperation *operation in operations<span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>            switch <span class="o">(</span>operation.type<span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>                <span class="k">case </span>AFJSONAddOperationType:
+</span><span class='line'>                    <span class="o">[</span>resources addObject:operation.value<span class="o">]</span>;
+</span><span class='line'>                    <span class="nb">break</span>;
+</span><span class='line'>                default:
+</span><span class='line'>                    <span class="nb">break</span>;
+</span><span class='line'>            <span class="o">}</span>
+</span><span class='line'>        <span class="o">}</span>
+</span><span class='line'>    <span class="o">}</span> error:nil<span class="o">]</span>;
+</span><span class='line'><span class="o">}</span> failure:nil<span class="o">]</span>;
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h6>UIKit 扩展</h6>
+
+<p>2.0 的中所有 UIKit 扩展都被分离出来并进行了增强。</p>
+
+<ul>
+<li><code>AFNetworkActivityIndicatorManager</code>: 新增自动开始或结束状态栏上的网络指示器。</li>
+<li><code>UIImageView+AFNetworking</code>: 新增显示图片前剪裁或者加滤镜的功能。</li>
+<li><code>UIButton+AFNetworking</code> (新增): 类似 UIImageView+AFNetworking，按钮的背景图从线上下载。</li>
+<li><code>UIActivityIndicatorView+AFNetworking</code> (新增): 根据网络请求的状态自动开始或结束。</li>
+<li><code>UIProgressView+AFNetworking</code> (新增): 自动跟踪某个请求的上传下载的进度。</li>
+<li><code>UIWebView+AFNetworking</code> (新增): 支持网络请求的进度和内容转换。</li>
+</ul>
+
+
+<h3>3. 使用</h3>
+
+<p>在 CocoaPods 中使用 AFNetworking 2.0：</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>platform :ios, <span class="s1">&#39;7.0&#39;</span>
+</span><span class='line'>pod <span class="s2">&quot;AFNetworking&quot;</span>, <span class="s2">&quot;2.0.0&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>如果之前你是用 1.0，这个<a href="https://github.com/AFNetworking/AFNetworking/wiki/AFNetworking-2.0-Migration-Guide">《AFNetworking 2.0 迁移指南》</a>应该会有帮助。</p>
+
+<h2>总结</h2>
+
+<p>AFNetworking 2.0 是一次非常有价值的更新，谢谢 Mattt 带来这么棒的开源项目。在互联网领域，要想成为牛人，除了聪明和勤奋，我想一定少不了分享和交流，那些具有开源精神的人，那些喜欢和不同人、不同想法碰撞的人，才有可能走在时代的前沿。</p>
 </div>
   
   
