@@ -1,0 +1,297 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>M7 为开发者提供了哪些新东西？ - yfme's blog</title>
+  <meta name="author" content="Fei Yang">
+
+  
+  <meta name="description" content="昨晚新发布的 iPad Air、iPad mini 2， 跟一个月前发布的 iPhone 5s 一样，都带了那款 M7 运动协处理器。 关于 M7 的作用，苹果描述的通俗易懂： “全新 M7 协处理器如同 A7 芯片的得力助手。它专为测量来自加速感应器、陀螺仪和指南针的运动数据而设计，如果没有它， &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://yfme.github.io/blog/2013-10-23-what-is-new-for-m7">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="yfme's blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  
+  
+
+</head>
+
+<body   class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">yfme's blog</a></h1>
+</hgroup>
+
+</header>
+<div class="navi">
+<ul>
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/aboutme/">Author</a></li>
+</ul>
+</div>
+
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">M7 为开发者提供了哪些新东西？</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-10-23T13:55:00+08:00" pubdate data-updated="true">Oct 23<span>rd</span>, 2013</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>昨晚新发布的 iPad Air、iPad mini 2， 跟一个月前发布的 iPhone 5s 一样，都带了那款 M7 运动协处理器。</p>
+
+<p><img src="/images/2013-10-23-pic-0.png"></p>
+
+<p>关于 M7 的作用，苹果描述的通俗易懂：</p>
+
+<blockquote><p>“全新 M7 协处理器如同 A7 芯片的得力助手。它专为测量来自加速感应器、陀螺仪和指南针的运动数据而设计，如果没有它，这项任务通常会落在 A7 芯片身上。但 M7 协处理器更擅长于此。追踪身体活动的健身 app 现可从 M7 协处理器读取相关数据，因此无需持续访问 A7 芯片，从而降低了耗电量。无论你在走路，跑步，甚至开车，M7 协处理器通通知晓。如果你的手机许久未动，例如当你睡觉时，M7 协处理器会减少网络检测，从而节省电池电量。”</p></blockquote>
+
+<p>我把它概括为 2 点：</p>
+
+<ol>
+<li>节省电量</li>
+<li>处理传感器数据（实时、持续、集中）</li>
+</ol>
+
+
+<p>这种解决方案，在 Android 阵营被称为 Sensor Hub。虽然现在 Sensor Hub 还只是在个别旗舰机型上出现，但考虑到它给移动设备带来的这两点好处立竿见影，可以想象很快各个商家各种型号的移动设备都会跟进，Sensor Hub 甚至可能成为移动设备的标配。</p>
+
+<p>今天，我通过苹果提供的文档和 API 梳理一下，看看 M7 到底能给 iOS 开发者提供哪些新东西。</p>
+
+<p>首先要有心理准备，新增的内容比较少，今年的 WWDC sessions 甚至没有提到 M7。运动协处理器的潜力需要逐步挖掘。</p>
+
+<p>在 iOS 7 之前，和传感器数据打交道就是通过 CoreMotion 框架，M7 相关的接口依然封装在 CoreMotion 中。</p>
+
+<p>我们可以从文档更新情况看出，2013年9月，CoreMotion 中仅增加了计步(CMStepCounter)、活动状态(CMMotionActivity)相关的类。</p>
+
+<p><img src="/images/2013-10-23-pic-2.png"></p>
+
+<p><img class="right" src="/images/2013-10-23-pic-1.png"></p>
+
+<p>新增的类：</p>
+
+<ul>
+<li>CMStepCounter</li>
+<li>CMMotionActivity</li>
+<li>CMMotionActivityManager</li>
+</ul>
+
+
+<p>更新的类：</p>
+
+<ul>
+<li>CMMotionManager （仅为iOS7增加了一些错误常量）</li>
+</ul>
+
+
+<h3><code>CMStepCounter</code></h3>
+
+<p>CMStepCounter 可以读取用户携带设备所走的步数。步数信息是由内置的硬件收集并储存的，你可以通过查询步数判断当前用户的活动状态。通过这个类，既可以得到当前的步数信息，也可以访问历史数据。</p>
+
+<h3><code>CMMotionActivity</code></h3>
+
+<p>此对象包含了运动事件的数据。在支持动作识别的设备上，你可以使用 CMMotionActivityManager 去查询当前运动状态的改变。当运动状态改变发生时，更新的信息会被打包成 CMMotionActivity 对象，并发给到你的 app。</p>
+
+<p>在这个类中动作相关的属性不是互斥的。换句话说，有可能多个动作相关的属性都是 YES。例如，如果用户正在开一辆车并且车遇到红灯停止，这是更新的信息中 automotive 和 stationary 两个属性都会被设置为 YES。也有可能所有的属相都是 NO，如果设备的运动和步行、奔跑、开车都不相符。</p>
+
+<p>开发者并不能直接创建 CMMotionActivity 实例。它由 CMMotionActivityManager 创建，并把它发送到你注册的回调 block 中。</p>
+
+<p>运动类型：</p>
+
+<ul>
+<li>stationary  静止</li>
+<li>walking  走路</li>
+<li>running  跑步</li>
+<li>automotive  开车</li>
+<li>unknown  未知</li>
+</ul>
+
+
+<p>运动数据:</p>
+
+<ul>
+<li>startDate 运动的开始时间</li>
+<li>confidence 运动强度</li>
+</ul>
+
+
+<h3><code>CMMotionActivityManager</code></h3>
+
+<p>用于访问设备储存的运动数据。运动数据反映了用户在某段时间是在走路、跑步、开车或者静止。导航 app 可以在用户状态切换后提供不同的服务。通过这个类你可以收到当前运动状态改变的通知，或者读取过去的数据变化。</p>
+
+<p>方法有这几个：</p>
+
+<ul>
+<li>+ isActivityAvailable 判断当前设备是否支持提供运动数据</li>
+<li>– startActivityUpdatesToQueue:withHandler: 开始活动更新</li>
+<li>– stopActivityUpdates 停止活动更新</li>
+<li>– queryActivityStartingFromDate:toDate:toQueue:withHandler: 获取历史数据</li>
+</ul>
+
+
+<h2>总结</h2>
+
+<p>以前通过 CoreMotion 处理传感器数据都是由CPU完成，现在 M7 把这一块接管了。但给开发者新增的接口还比较少，基本的新玩意儿是:</p>
+
+<ol>
+<li>计步</li>
+<li>判断用户是在静止，走路，跑步，还是开车</li>
+<li>1和2的历史数据</li>
+</ol>
+
+
+<h4>但这只是开始，将运动芯片单独剥离意义重大，试想如果所有的传感器都能常驻后台，移动设备能做的事将会更加有趣，特别是和可穿戴、智能家居等设备配合，充满想象！人类对智能的追求永无止境，我们拭目以待接下来的精彩！</h4>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013-09-30-afnetworking-2-came/" title="Previous Post: AFNetworking 2.0 来了">&laquo; AFNetworking 2.0 来了</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013-10-23-what-is-new-for-m7/">M7 为开发者提供了哪些新东西？</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013-09-30-afnetworking-2-came/">AFNetworking 2.0 来了</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/yfme">@yfme</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'yfme',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Fei Yang -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'yfme';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://yfme.github.io/blog/2013-10-23-what-is-new-for-m7/';
+        var disqus_url = 'http://yfme.github.io/blog/2013-10-23-what-is-new-for-m7/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

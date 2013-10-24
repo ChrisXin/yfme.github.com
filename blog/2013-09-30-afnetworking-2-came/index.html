@@ -146,13 +146,21 @@
 
 <h5>安全</h5>
 
-<p>AFNetworking 支持 <a href="http://blog.lumberlabs.com/2012/04/why-app-developers-should-care-about.html">SSL pinning</a>。这对涉及敏感数据的 App 很重要。
-  * <code>AFSecurityPolicy</code> &ndash; 这个类通过特定证书和公共密钥评估链接的安全性和可信任度。在你的 App bundle 中添加服务器证书有助于防止“<a href="http://zh.wikipedia.org/wiki/%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%94%BB%E5%87%BB">中间人攻击</a>”。</p>
+<p>AFNetworking 支持 <a href="http://blog.lumberlabs.com/2012/04/why-app-developers-should-care-about.html">SSL pinning</a>。这对涉及敏感数据的 App 很重要。</p>
+
+<ul>
+<li><code>AFSecurityPolicy</code> &ndash; 这个类通过特定证书和公共密钥评估链接的安全性和可信任度。在你的 App bundle 中添加服务器证书有助于防止“<a href="http://zh.wikipedia.org/wiki/%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%94%BB%E5%87%BB">中间人攻击</a>”。</li>
+</ul>
+
 
 <h5>可达性（Reachability）</h5>
 
-<p>另一个从 AFHTTPClient 中分离的功能是网络的可达性。现在你可以单独使用它，或者作为 AFHTTPRequestOperationManager / AFHTTPSessionManager 的一个属性。
-  * <code>AFNetworkReachabilityManager</code> &ndash; 负责监控当前的网络可达性，当网络的可达性发生改变时，提供相应的 callback 和通知。</p>
+<p>另一个从 AFHTTPClient 中分离的功能是网络的可达性。现在你可以单独使用它，或者作为 AFHTTPRequestOperationManager / AFHTTPSessionManager 的一个属性。</p>
+
+<ul>
+<li><code>AFNetworkReachabilityManager</code> &ndash; 负责监控当前的网络可达性，当网络的可达性发生改变时，提供相应的 callback 和通知。</li>
+</ul>
+
 
 <h5>实时</h5>
 
@@ -235,6 +243,8 @@
     <p class="meta">
       
       
+        <a class="basic-alignment right" href="/blog/2013-10-23-what-is-new-for-m7/" title="Next Post: M7 为开发者提供了哪些新东西？">M7 为开发者提供了哪些新东西？ &raquo;</a>
+      
     </p>
   </footer>
 </article>
@@ -254,6 +264,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013-10-23-what-is-new-for-m7/">M7 为开发者提供了哪些新东西？</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013-09-30-afnetworking-2-came/">AFNetworking 2.0 来了</a>
