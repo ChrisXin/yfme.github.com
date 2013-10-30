@@ -4,7 +4,7 @@
   <title><![CDATA[yfme's blog]]></title>
   <link href="http://yfme.github.io/atom.xml" rel="self"/>
   <link href="http://yfme.github.io/"/>
-  <updated>2013-10-30T22:14:09+08:00</updated>
+  <updated>2013-10-31T00:06:02+08:00</updated>
   <id>http://yfme.github.io/</id>
   <author>
     <name><![CDATA[Fei Yang]]></name>
@@ -20,9 +20,11 @@
     <id>http://yfme.github.io/blog/iosdevweekly</id>
     <content type="html"><![CDATA[<h3>新闻</h3>
 
-<h4><a href="http://engineering.linkedin.com/mobile/linkedin-intro-doing-impossible-ios?utm_source=iOS+Dev+Weekly&amp;utm_campaign=iOS_Dev_Weekly_Issue_117&amp;utm_medium=email">LinkedIn Intro: iOS 中“不可能的事”</a></h4>
+<h4><a href="http://engineering.linkedin.com/mobile/linkedin-intro-doing-impossible-ios?utm_source=iOS+Dev+Weekly&amp;utm_campaign=iOS_Dev_Weekly_Issue_117&amp;utm_medium=email">LinkedIn Intro: Doing the Impossible on iOS</a></h4>
 
 <p>LinkedIn Intro 是 LinkedIn 推出的一款新产品，它能把你的 LinkedIn 个人介绍嵌入到 iPhone 邮件客户端中。不知道哪些人会喜欢这个功能，我只是好奇他们是如何做到的。有兴趣的点开链接查看具体的实现方法。</p>
+
+<p><img src="http://yfme.github.io/images/2013-10-29-pic-0.png"></p>
 
 <h3>工具</h3>
 
