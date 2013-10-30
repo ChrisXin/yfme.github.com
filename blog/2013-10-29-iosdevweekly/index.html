@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>yfme's blog</title>
+  <title>iOS开发周报 (2013/12/29) - yfme's blog</title>
   <meta name="author" content="Fei Yang">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://yfme.github.io">
+  <link rel="canonical" href="http://yfme.github.io/blog/2013-10-29-iosdevweekly">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="yfme's blog" type="application/atom+xml">
@@ -49,15 +49,12 @@
 
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013-10-29-iosdevweekly/">iOS开发周报 (2013/12/29)</a></h1>
+      <h1 class="entry-title">iOS开发周报 (2013/12/29)</h1>
     
     
       <p class="meta">
@@ -80,7 +77,7 @@
   </header>
 
 
-  <div class="entry-content"><h3>新闻</h3>
+<div class="entry-content"><h3>新闻</h3>
 
 <h4><a href="http://engineering.linkedin.com/mobile/linkedin-intro-doing-impossible-ios?utm_source=iOS+Dev+Weekly&amp;utm_campaign=iOS_Dev_Weekly_Issue_117&amp;utm_medium=email">LinkedIn Intro: iOS 中“不可能的事”</a></h4>
 
@@ -94,139 +91,66 @@
 
 <p>Apportable 是一个把 iOS app 转换成 Android app 的工具，它支持 UIKit、CoreData、CoreAnimation、Cocos2D，甚至支持 Android 版的“推送”和“StoreKit”。这确实挺屌的，竟然能用 Objective-C 完成安卓的各种功能，甚至支持 Android 特有的硬件返回按钮。通过他们的介绍视频可以看到，把 iOS 版本转换成 Android 版本成本低了很多，也许移植过程会有一些注意事项，但确实是一个非常有趣非常棒的工具。</p>
 
+<!-- more -->
+
+
+<h4><a href="http://chen.do/blog/2013/10/22/reverse-engineering-xcode-with-dtrace/?utm_source=iOS+Dev+Weekly&amp;utm_campaign=iOS_Dev_Weekly_Issue_117&amp;utm_medium=email">Xcode 插件: 自动补全增强版</a></h4>
+
+<p>Xcode 自带的 Code Sense 只能根据前缀自动补全，这经常让记单词捉急的人很抓狂。Jack Chen 写这的插件采用动态模糊匹配，让自动补全更加智能，非常好用。妈妈再也不用担心你拼错单词了！</p>
+
+<h4><a href="https://github.com/facebook/ios-snapshot-test-case">iOS 界面测试</a></h4>
+
+<p>测试逻辑相对简单直接，但测试界面有时候比较棘手，你加了各种背景色、框框，却依然不直观。是不是对比UIView的尺寸和已知素材的尺寸更为便捷？Facebook 的工程师就写了这样一个测试类——FBSnapshotTestCase， 它用于测试“界面和图片资源的尺寸是否匹配”。如果你的app界面复杂素材多，可以试试。</p>
+
+<h3>代码</h3>
+
+<h4><a href="http://ronnqvi.st/controlling-animation-timing/">控制动画时间</a></h4>
+
+<p>CAMediaTiming 是 CAAnimation 的一个协议，跟时间相关的属性都在这里。这篇文章让你更深入地了解 CAMediaTiming，进而更灵活地控制动画的时间。</p>
+
+<h4><a href="http://sunsetlakesoftware.com/2013/10/21/optimizing-gaussian-blurs-mobile-gpu">高斯模糊的算法优化</a></h4>
+
+<p>GPUImage 是一个非常著名的图像处理的库，iOS 7 发布后，作者重写了 GPUImage 库中的高斯模糊控件，如果对优化高斯模糊算法的过程有兴趣，可以仔细看看。</p>
+
+<h4><a href="https://github.com/path/FastImageCache">FastImageCache</a></h4>
+
+<p>图片的载入速度很重要，特别是多图快速滚动时的流畅度，某种程度上决定了 App 的用户体验。App 用户体验标杆 Path 给出了他们的解决方案，开源了他们存取图片的框架，值得借鉴学习。</p>
+
+<h4><a href="http://www.sprite-kit.com/">Sprite Kit</a></h4>
+
+<p>是不是觉得学习 Sprite Kit 的资料有点少？这里有个专门介绍 Sprite Kit 的网站，不错，收藏。</p>
+
+<h3>设计</h3>
+
+<h4><a href="http://blog.jaredsinclair.com/post/64880801326/untouchable">Untouchable</a></h4>
+
+<p>大破才能大立，iOS 7 肯定是大破了，立没立从6月份到现在大家都还在讨论，但基本是渐渐立了。。。我个人也是非常喜欢 iOS 7 带来的新鲜，非常喜欢各种线、各种“撑到边”、各种越看越好看的配色（特别是“音乐”和“天气”两个Icon，可以说完美！），但也有不喜欢的地方，比如毫无质感的Dock条、违和的GameCenter立体气泡、冗长的Zoom动画、所有按钮无边框……世界上没有所有人都喜欢的设计，每个人也都有权利说出自己的偏好，针对“所有按钮无边框”这一点，Jared Sinclair 写出了他自己的看法，不管你同不同意，阅读不同的观点对设计思维不是坏事。</p>
+
+<h3>最后</h3>
+
+<p>上周发布的 iPad Air 和 iPad mini with Retina display 都很满意，期待早日入手 : )</p>
 </div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2013-10-29-iosdevweekly/">继续阅读 &rarr;</a>
-    </footer>
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013-10-23-what-is-new-for-m7/">M7 为开发者提供了哪些新东西？</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-10-23T13:55:00+08:00" pubdate data-updated="true">Oct 23<span>rd</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>昨晚新发布的 iPad Air、iPad mini 2， 跟一个月前发布的 iPhone 5s 一样，都带了那款 M7 运动协处理器。</p>
-
-<p><img src="/images/2013-10-23-pic-0.png"></p>
-
-<p>关于 M7 的作用，苹果描述的通俗易懂：</p>
-
-<blockquote><p>“全新 M7 协处理器如同 A7 芯片的得力助手。它专为测量来自加速感应器、陀螺仪和指南针的运动数据而设计，如果没有它，这项任务通常会落在 A7 芯片身上。但 M7 协处理器更擅长于此。追踪身体活动的健身 app 现可从 M7 协处理器读取相关数据，因此无需持续访问 A7 芯片，从而降低了耗电量。无论你在走路，跑步，甚至开车，M7 协处理器通通知晓。如果你的手机许久未动，例如当你睡觉时，M7 协处理器会减少网络检测，从而节省电池电量。”</p></blockquote>
-
-<p>我把它概括为 2 点：</p>
-
-<ol>
-<li>节省电量</li>
-<li>处理传感器数据（实时、持续、集中）</li>
-</ol>
-
-
-<p>这种解决方案，在 Android 阵营被称为 Sensor Hub。虽然现在 Sensor Hub 还只是在个别旗舰机型上出现，但考虑到它给移动设备带来的这两点好处立竿见影，可以想象很快各个商家各种型号的移动设备都会跟进，Sensor Hub 甚至可能成为移动设备的标配。</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2013-10-23-what-is-new-for-m7/">继续阅读 &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
+        <a class="basic-alignment left" href="/blog/2013-10-23-what-is-new-for-m7/" title="Previous Post: M7 为开发者提供了哪些新东西？">&laquo; M7 为开发者提供了哪些新东西？</a>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013-09-30-afnetworking-2-came/">AFNetworking 2.0 来了</a></h1>
-    
-    
-      <p class="meta">
-        
+      
+    </p>
+  </footer>
+</article>
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-09-30T20:04:00+08:00" pubdate data-updated="true">Sep 30<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>前几天 Mattt 发布了 AFNetworking 2.0，我的一个最大感慨就是，他怎么那么高产？</p>
-
-<h2>关于 Mattt</h2>
-
-<p>Mattt 是一位非常活跃的 iOS 开发大牛，从 AFNetworking 1.0 开始 follow 他。当时从他 AFNetworking 和 TTTAttributedLabel 等开源代码中学到了很多。他现在是 Heroku 的 Mobile Lead。</p>
-
-<p>我一直觉得一个团队要想为开发者提供优秀的服务，这个团队本身应该足够 hacker 足够酷，比如 Github，这群人以及他们所做的事真的是非常帅。 Heroku 也不错，他们的首席架构师就是 Ruby 之父松本行弘，他们让 Web 开发变得如此的轻松。</p>
-
-<p>我觉得 Mattt 确实是个 hacker，并且是个非常具有开源精神的 hacker。他的很多项目我都觉得非常有趣，这里列出一些。更多信息关注他的Github账号(<a href="https://github.com/mattt">@mattt</a>)和Twitter账户(<a href="https://twitter.com/mattt">@mattt</a>)。</p>
-
-<ul>
-<li><a href="http://asciiwwdc.com/">asciiwwdc</a> &ndash; searchable full-text transcripts of WWDC sessions</li>
-<li><a href="http://afnetworking.com/">afnetworking 2.0</a> &ndash; a delightful networking library for iOS and Mac OS X</li>
-<li><a href="http://nshipster.com/">nshipster</a> &ndash; a journal of the overlooked bits in Objective-C and Cocoa</li>
-<li><a href="https://github.com/helios-framework/helios">helios</a> &ndash; an extensible open-source mobile backend framework</li>
-<li><a href="http://nomad-cli.com/">nomad</a> &ndash; world-class command line utilities for iOS development</li>
-<li><a href="http://rocket.github.io/">rocket</a> &ndash; a hybrid approach to real-time cloud applications</li>
-</ul>
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 
 </div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2013-09-30-afnetworking-2-came/">继续阅读 &rarr;</a>
-    </footer>
-  
 
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
 <aside class="sidebar">
   
     <section>
@@ -251,7 +175,7 @@
 <section>
   <h1>GitHub Repos</h1>
   <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   
   <a href="https://github.com/yfme">@yfme</a> on GitHub
@@ -284,6 +208,7 @@
   
 </aside>
 
+
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -298,7 +223,10 @@
       var disqus_shortname = 'yfme';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://yfme.github.io/blog/2013-10-29-iosdevweekly/';
+        var disqus_url = 'http://yfme.github.io/blog/2013-10-29-iosdevweekly/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
