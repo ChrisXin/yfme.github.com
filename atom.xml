@@ -4,7 +4,7 @@
   <title><![CDATA[yfme's blog]]></title>
   <link href="http://yfme.github.io/atom.xml" rel="self"/>
   <link href="http://yfme.github.io/"/>
-  <updated>2013-10-31T10:14:44+08:00</updated>
+  <updated>2013-10-31T14:01:52+08:00</updated>
   <id>http://yfme.github.io/</id>
   <author>
     <name><![CDATA[Fei Yang]]></name>
@@ -14,13 +14,13 @@
 
   
   <entry>
-    <title type="html"><![CDATA[iOS开发周报 (2013/12/29)]]></title>
+    <title type="html"><![CDATA[iOS开发周报]]></title>
     <link href="http://yfme.github.io/blog/2013-10-29-iosdevweekly/"/>
     <updated>2013-10-29T12:51:00+08:00</updated>
     <id>http://yfme.github.io/blog/iosdevweekly</id>
     <content type="html"><![CDATA[<h3>新闻</h3>
 
-<h4><a href="http://engineering.linkedin.com/mobile/linkedin-intro-doing-impossible-ios?utm_source=iOS+Dev+Weekly&amp;utm_campaign=iOS_Dev_Weekly_Issue_117&amp;utm_medium=email">LinkedIn Intro: Doing the Impossible on iOS</a></h4>
+<h5><a href="http://engineering.linkedin.com/mobile/linkedin-intro-doing-impossible-ios?utm_source=iOS+Dev+Weekly&amp;utm_campaign=iOS_Dev_Weekly_Issue_117&amp;utm_medium=email">LinkedIn Intro: Doing the Impossible on iOS</a></h5>
 
 <p>LinkedIn Intro 是 LinkedIn 推出的一款新产品，它能把你的 LinkedIn 个人介绍嵌入到 iPhone 邮件客户端中。不知道哪些人会喜欢这个功能，我只是好奇他们是如何做到的。有兴趣的点开链接查看具体的实现方法。</p>
 
@@ -28,7 +28,7 @@
 
 <h3>工具</h3>
 
-<h4><a href="http://www.apportable.com/">Apportable</a></h4>
+<h5><a href="http://www.apportable.com/">Apportable</a></h5>
 
 <p>用 Objective-C 能写 Android 应用吗？答案是：YES！</p>
 
@@ -37,41 +37,41 @@
 <!-- more -->
 
 
-<h4><a href="http://chen.do/blog/2013/10/22/reverse-engineering-xcode-with-dtrace/?utm_source=iOS+Dev+Weekly&amp;utm_campaign=iOS_Dev_Weekly_Issue_117&amp;utm_medium=email">Xcode 插件: 自动补全增强版</a></h4>
+<h5><a href="http://chen.do/blog/2013/10/22/reverse-engineering-xcode-with-dtrace/?utm_source=iOS+Dev+Weekly&amp;utm_campaign=iOS_Dev_Weekly_Issue_117&amp;utm_medium=email">Xcode 插件: 自动补全增强版</a></h5>
 
 <p>Xcode 自带的 Code Sense 只能根据前缀自动补全，这经常让记单词捉急的人很抓狂。Jack Chen 写这的插件采用动态模糊匹配，让自动补全更加智能，非常好用。妈妈再也不用担心你拼错单词了！</p>
 
-<h4><a href="https://github.com/facebook/ios-snapshot-test-case">iOS 界面测试</a></h4>
+<h5><a href="https://github.com/facebook/ios-snapshot-test-case">iOS 界面测试</a></h5>
 
 <p>测试逻辑相对简单直接，但测试界面有时候比较棘手，你加了各种背景色、框框，却依然不直观。是不是对比UIView的尺寸和已知素材的尺寸更为便捷？Facebook 的工程师就写了这样一个测试类——FBSnapshotTestCase， 它用于测试“界面和图片资源的尺寸是否匹配”。如果你的app界面复杂素材多，可以试试。</p>
 
 <h3>代码</h3>
 
-<h4><a href="http://ronnqvi.st/controlling-animation-timing/">控制动画时间</a></h4>
+<h5><a href="http://ronnqvi.st/controlling-animation-timing/">控制动画时间</a></h5>
 
 <p>CAMediaTiming 是 CAAnimation 的一个协议，跟时间相关的属性都在这里。这篇文章让你更深入地了解 CAMediaTiming，进而更灵活地控制动画的时间。</p>
 
-<h4><a href="http://sunsetlakesoftware.com/2013/10/21/optimizing-gaussian-blurs-mobile-gpu">高斯模糊的算法优化</a></h4>
+<h5><a href="http://sunsetlakesoftware.com/2013/10/21/optimizing-gaussian-blurs-mobile-gpu">高斯模糊的算法优化</a></h5>
 
 <p>GPUImage 是一个非常著名的图像处理的库，iOS 7 发布后，作者重写了 GPUImage 库中的高斯模糊控件，如果对优化高斯模糊算法的过程有兴趣，可以仔细看看。</p>
 
-<h4><a href="https://github.com/path/FastImageCache">FastImageCache</a></h4>
+<h5><a href="https://github.com/path/FastImageCache">FastImageCache</a></h5>
 
 <p>图片的载入速度很重要，特别是多图快速滚动时的流畅度，某种程度上决定了 App 的用户体验。App 用户体验标杆 Path 给出了他们的解决方案，开源了他们存取图片的框架，值得借鉴学习。</p>
 
-<h4><a href="http://www.sprite-kit.com/">Sprite Kit</a></h4>
+<h5><a href="http://www.sprite-kit.com/">Sprite Kit</a></h5>
 
 <p>是不是觉得学习 Sprite Kit 的资料有点少？这里有个专门介绍 Sprite Kit 的网站，不错，收藏。</p>
 
 <h3>设计</h3>
 
-<h4><a href="http://blog.jaredsinclair.com/post/64880801326/untouchable">Untouchable</a></h4>
+<h5><a href="http://blog.jaredsinclair.com/post/64880801326/untouchable">不可触摸</a></h5>
 
-<p>大破才能大立，iOS 7 肯定是大破了，立没立从6月份到现在大家都还在讨论，但基本是渐渐立了。。。我个人也是非常喜欢 iOS 7 带来的新鲜，非常喜欢各种线、各种“撑到边”、各种越看越好看的配色（特别是“音乐”和“天气”两个Icon，可以说完美！），但也有不喜欢的地方，比如毫无质感的Dock条、违和的GameCenter立体气泡、冗长的Zoom动画、所有按钮无边框……世界上没有所有人都喜欢的设计，每个人也都有权利说出自己的偏好，针对“所有按钮无边框”这一点，Jared Sinclair 写出了他自己的看法，不管你同不同意，阅读不同的观点对设计思维不是坏事。</p>
+<p>大破才能大立，iOS 7 肯定是大破了，立没立从6月份到现在大家都还在讨论，但基本是渐渐立了。。。我个人也是非常喜欢 iOS 7 带来的新鲜，非常喜欢各种线、各种“撑到边”、各种越看越好看的配色（特别强调“音乐”和“天气”两个Icon，个人觉得完美！），但也有不喜欢的地方，比如毫无质感的Dock条、违和的GameCenter立体气泡、冗长的Zoom动画、所有按钮无边框……世界上没有所有人都喜欢的设计，每个人也都有自己的偏好，针对“所有按钮无边框”这一点，Jared Sinclair 写出了他自己的看法。</p>
 
-<h3>最后</h3>
+<h5><a href="http://apple4us.com/2013/10/make-your-fancy-ui-and-interaction-get-out-of-my-way.html">不要让用户惊艳</a></h5>
 
-<p>上周发布的 iPad Air 和 iPad mini with Retina display 都很满意，期待早日入手 : )</p>
+<p>阅读不同观点能够激发你对设计的深入思考，这篇文章是唐茶创始人李如一对于《不可触摸》的一次思考。</p>
 ]]></content>
   </entry>
   
