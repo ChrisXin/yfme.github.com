@@ -4,7 +4,7 @@
   <title><![CDATA[yfme's blog]]></title>
   <link href="http://yfme.github.io/atom.xml" rel="self"/>
   <link href="http://yfme.github.io/"/>
-  <updated>2013-10-31T14:01:52+08:00</updated>
+  <updated>2013-11-05T00:00:54+08:00</updated>
   <id>http://yfme.github.io/</id>
   <author>
     <name><![CDATA[Fei Yang]]></name>
@@ -14,15 +14,81 @@
 
   
   <entry>
-    <title type="html"><![CDATA[iOS开发周报]]></title>
-    <link href="http://yfme.github.io/blog/2013-10-29-iosdevweekly/"/>
+    <title type="html"><![CDATA[iDev Weekly - 1105]]></title>
+    <link href="http://yfme.github.io/blog/2013-11-05-idevweekly/"/>
+    <updated>2013-11-05T18:00:00+08:00</updated>
+    <id>http://yfme.github.io/blog/idevweekly</id>
+    <content type="html"><![CDATA[<h5>• <a href="http://ionicons.com/">ionicons</a> / <a href="https://github.com/TapTemplate/ionicons-iOS">ionicons-iOS</a></h5>
+
+<p>ionicons 是一套免费开源的图标字体，其中一半为 iOS 7 的系统图标，另一半风格也相似。ionicons-iOS 是他们提供的一个 iOS 库，使得在 iOS app 中使用 ionicons 非常方便，你可以作为 UIFont 使用，也可以作为 UILabel 和 UIImage。使用 ionicons 的好处是，你可以更自由地控制系统图标的大小、颜色，而且还有其他图标可选，更重要的是它支持 iOS 5+，这样你所有版本的 app 就可以保持统一的图标风格。</p>
+
+<!-- more -->
+
+
+<p><img src="http://yfme.github.io/images/2013-11-05-pic-0.png"></p>
+
+<h5>• <a href="http://www.appcoda.com/customize-navigation-status-bar-ios-7">自定义 iOS 7 中 Navigation Bar 和 Status Bar</a></h5>
+
+<p>iOS 7 中 Navigation Bar 和 Status Bar 的风格有着非常明显的变化，这篇文章系统地讲解了如何对其自定义。（本文有<a href="http://beyondvincent.com/blog/2013/11/03/120-customize-navigation-status-bar-ios-7/">中文翻译</a> By 破船之家）</p>
+
+<h5>• <a href="http://bradfrostweb.com/blog/post/float-label-pattern/">浮动式表单标签设计</a></h5>
+
+<p>一种新颖的表单交互设计，非常棒。（本文有<a href="http://beforweb.com/node/337">中文翻译</a> By C7210）</p>
+
+<p><img src="http://yfme.github.io/images/2013-11-05-pic-1.gif"></p>
+
+<h5>• <a href="http://www.shinobicontrols.com/blog/posts/2013/09/19/introducing-ios7-day-by-day/">每天一篇 • iOS 7 新特性</a></h5>
+
+<ul>
+<li>Day 0 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/09/19/ios7-day-by-day-day-0-uikit-dynamics/">UIKit Dynamics</a></li>
+<li>Day 1 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/09/20/ios7-day-by-day-day-1-nsurlsession/">NSURLSession</a></li>
+<li>Day 2 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/09/23/ios7-day-by-day-day-2-asset-catalog/">Asset Catalog</a></li>
+<li>Day 3 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/09/24/ios7-day-by-day-day-3-background-fetch/">Background Fetch</a></li>
+<li>Day 4 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/09/25/ios7-day-by-day-day-4-avspeechsynthesizer/">AVSpeechSynthesizer</a></li>
+<li>Day 5 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/09/26/ios7-day-by-day-day-5-uidynamics-with-collection-views/">UIDynamics with Collection Views</a></li>
+<li>Day 6 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/09/27/ios7-day-by-day-day-6-tint-color/">Tint Color</a></li>
+<li>Day 7 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/09/30/ios7-day-by-day-day-7-taking-snapshots-of-uiviews/">Taking Snapshots of UIViews</a></li>
+<li>Day 8 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/10/01/ios7-day-by-day-day-8-reading-list-with-safariservices/">Reading list with SafariServices</a></li>
+<li>Day 9 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/10/02/ios7-day-by-day-day-9-device-identification/">Device Identification</a></li>
+<li>Day 10 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/10/03/ios7-day-by-day-day-10-custom-uiviewcontroller-transitions/">Custom UIViewController Transitions</a></li>
+<li>Day 11 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/10/04/ios7-day-by-day-day-11-uiview-key-frame-animations/">UIView Key-frame Animations</a></li>
+<li>Day 12 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/10/07/ios7-day-by-day-day-12-dynamic-type-and-font-descriptors/">Dynamic Type and Font Descriptors</a></li>
+<li>Day 13 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/10/08/ios7-day-by-day-day-13-route-directions-with-mapkit/">Route Directions with MapKit</a></li>
+<li>Day 14 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/10/09/ios7-day-by-day-day-14-interactive-view-controller-transitions/">Interactive View Controller Transitions</a></li>
+<li>Day 15 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/10/10/ios7-day-by-day-day-15-coreimage-filters/">CoreImage Filters</a></li>
+<li>Day 16 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/10/11/ios7-day-by-day-day-16-decoding-qr-codes-with-avfoundation/">Decoding QR Codes with AVFoundation</a></li>
+<li>Day 17 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/10/14/ios7-day-by-day-day-17-ibeacons/">iBeacons</a></li>
+<li>Day 18 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/10/15/ios7-day-by-day-day-18-detecting-facial-features-with-coreimage/">Detecting Facial Features with CoreImage</a></li>
+<li>Day 19 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/10/16/ios7-day-by-day-day-19-uitableview-row-height-estimation/">UITableView Row Height Estimation</a></li>
+<li>Day 20 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/10/17/ios7-day-by-day-day-20-view-controller-content-and-navigation-bars/">View controller content and navigation bars</a></li>
+<li>Day 21 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/10/18/ios7-day-by-day-day-21-multi-column-textkit-text-rendering/">Multi-column TextKit text rendering</a></li>
+<li>Day 22 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/10/21/ios7-day-by-day-day-22-downloadable-fonts/">Downloadable Fonts</a></li>
+<li>Day 23 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/10/22/ios7-day-by-day-day-23-multipeer-connectivity/">Multipeer Connectivity</a></li>
+<li>Day 24 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/10/23/ios7-day-by-day-day-24-the-end/">The End</a></li>
+</ul>
+
+
+<h3>其他</h3>
+
+<h4>• <a href="http://www.yangzhiping.com/psy/startup.html">写给创业者的六个心理学原理</a></h4>
+
+<p>阳志平的个人网站是我最喜欢的博客之一，阳老师的文章读起来很酣畅，品起来受益匪浅，总之对他的文章充满期待。这是前几天新增的博文，分上下两篇。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[iDev Weekly - 1009]]></title>
+    <link href="http://yfme.github.io/blog/2013-10-29-idevweekly/"/>
     <updated>2013-10-29T12:51:00+08:00</updated>
-    <id>http://yfme.github.io/blog/iosdevweekly</id>
+    <id>http://yfme.github.io/blog/idevweekly</id>
     <content type="html"><![CDATA[<h3>新闻</h3>
 
 <h5><a href="http://engineering.linkedin.com/mobile/linkedin-intro-doing-impossible-ios?utm_source=iOS+Dev+Weekly&amp;utm_campaign=iOS_Dev_Weekly_Issue_117&amp;utm_medium=email">LinkedIn Intro: Doing the Impossible on iOS</a></h5>
 
 <p>LinkedIn Intro 是 LinkedIn 推出的一款新产品，它能把你的 LinkedIn 个人介绍嵌入到 iPhone 邮件客户端中。不知道哪些人会喜欢这个功能，我只是好奇他们是如何做到的。有兴趣的点开链接查看具体的实现方法。</p>
+
+<!-- more -->
+
 
 <p><img src="http://yfme.github.io/images/2013-10-29-pic-0.png"></p>
 
@@ -34,12 +100,9 @@
 
 <p>Apportable 是一个把 iOS app 转换成 Android app 的工具，它支持 UIKit、CoreData、CoreAnimation、Cocos2D，甚至支持 Android 版的“推送”和“StoreKit”。这确实挺屌的，竟然能用 Objective-C 完成安卓的各种功能，甚至支持 Android 特有的硬件返回按钮。通过他们的介绍视频可以看到，把 iOS 版本转换成 Android 版本成本低了很多，也许移植过程会有一些注意事项，但确实是一个非常有趣非常棒的工具。</p>
 
-<!-- more -->
-
-
 <h5><a href="http://chen.do/blog/2013/10/22/reverse-engineering-xcode-with-dtrace/?utm_source=iOS+Dev+Weekly&amp;utm_campaign=iOS_Dev_Weekly_Issue_117&amp;utm_medium=email">Xcode 插件: 自动补全增强版</a></h5>
 
-<p>Xcode 自带的 Code Sense 只能根据前缀自动补全，这经常让记单词捉急的人很抓狂。Jack Chen 写这的插件采用动态模糊匹配，让自动补全更加智能，非常好用。妈妈再也不用担心你拼错单词了！</p>
+<p>Xcode 自带的 Code Sense 只能根据前缀自动补全，这经常让记单词捉急的人很抓狂。Jack Chen 写的这个插件采用动态模糊匹配，让自动补全更加智能，非常好用。妈妈再也不用担心你拼错单词了！</p>
 
 <h5><a href="https://github.com/facebook/ios-snapshot-test-case">iOS 界面测试</a></h5>
 
@@ -67,11 +130,11 @@
 
 <h5><a href="http://blog.jaredsinclair.com/post/64880801326/untouchable">不可触摸</a></h5>
 
-<p>大破才能大立，iOS 7 肯定是大破了，立没立从6月份到现在大家都还在讨论，但基本是渐渐立了。。。我个人也是非常喜欢 iOS 7 带来的新鲜，非常喜欢各种线、各种“撑到边”、各种越看越好看的配色（特别强调“音乐”和“天气”两个Icon，个人觉得完美！），但也有不喜欢的地方，比如毫无质感的Dock条、违和的GameCenter立体气泡、冗长的Zoom动画、所有按钮无边框……世界上没有所有人都喜欢的设计，每个人也都有自己的偏好，针对“所有按钮无边框”这一点，Jared Sinclair 写出了他自己的看法。</p>
+<p>大破才能大立，iOS 7 肯定是大破了，立没立从6月份到现在大家都还在讨论。。。我个人非常喜欢 iOS 7 带来的新鲜，非常喜欢各种线、各种“撑到边”、各种越看越好看的配色（特别强调“音乐”和“天气”两个Icon，简直完美！），但也有不喜欢的地方，比如毫无质感的Dock条、违和的GameCenter立体气泡、冗长的Zoom动画、所有按钮无边框……世界上没有所有人都喜欢的设计，每个人也都有自己的偏好，针对“所有按钮无边框”这一点，Jared Sinclair 写出了他自己的看法。</p>
 
 <h5><a href="http://apple4us.com/2013/10/make-your-fancy-ui-and-interaction-get-out-of-my-way.html">不要让用户惊艳</a></h5>
 
-<p>阅读不同观点能够激发你对设计的深入思考，这篇文章是唐茶创始人李如一对于《不可触摸》的一次思考。</p>
+<p>阅读不同观点能够激发你对设计的深入思考，这篇文章是唐茶创始人李如一对于上文《不可触摸》的一次思考。</p>
 ]]></content>
   </entry>
   
@@ -81,6 +144,9 @@
     <updated>2013-10-23T13:55:00+08:00</updated>
     <id>http://yfme.github.io/blog/what-is-new-for-m7</id>
     <content type="html"><![CDATA[<p>昨晚新发布的 iPad Air、iPad mini 2， 跟一个月前发布的 iPhone 5s 一样，都带了那款 M7 运动协处理器。</p>
+
+<!-- more -->
+
 
 <p><img src="http://yfme.github.io/images/2013-10-23-pic-0.png"></p>
 
@@ -97,9 +163,6 @@
 
 
 <p>这种解决方案，在 Android 阵营被称为 Sensor Hub。虽然现在 Sensor Hub 还只是在个别旗舰机型上出现，但考虑到它给移动设备带来的这两点好处立竿见影，可以想象很快各个商家各种型号的移动设备都会跟进，Sensor Hub 甚至可能成为移动设备的标配。</p>
-
-<!-- more -->
-
 
 <p>今天，我通过苹果提供的文档和 API 梳理一下，看看 M7 到底能给 iOS 开发者提供哪些新东西。</p>
 
@@ -185,7 +248,7 @@
 </ol>
 
 
-<h6>但这只是开始，将运动芯片单独剥离意义重大，试想如果所有的传感器都能常驻后台，移动设备能做的事将会更加有趣，特别是和可穿戴、智能家居等设备配合，充满想象！人类对智能的追求永无止境，我们拭目以待接下来的精彩！</h6>
+<h6>但这只是开始，将运动芯片单独剥离意义重大，试想如果所有的传感器都能常驻后台，移动设备能做的事将会更加有趣，特别是和可穿戴、智能家居等设备配合，充满想象！让我们拭目以待！</h6>
 ]]></content>
   </entry>
   
@@ -195,6 +258,9 @@
     <updated>2013-09-30T20:04:00+08:00</updated>
     <id>http://yfme.github.io/blog/afnetworking-2-came</id>
     <content type="html"><![CDATA[<p>前几天 Mattt 发布了 AFNetworking 2.0，我的一个最大感慨就是，他怎么那么高产？</p>
+
+<!-- more -->
+
 
 <h2>关于 Mattt</h2>
 
@@ -212,9 +278,6 @@
 <li><a href="http://nomad-cli.com/">nomad</a> &ndash; world-class command line utilities for iOS development</li>
 <li><a href="http://rocket.github.io/">rocket</a> &ndash; a hybrid approach to real-time cloud applications</li>
 </ul>
-
-
-<!-- more -->
 
 
 <h2>关于 AFNetworking</h2>
