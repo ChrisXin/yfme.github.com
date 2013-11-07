@@ -98,17 +98,17 @@
 
 <p>例如 <a href="http://cocoapods.org/">CocoaPods</a>，它充分证明了科技和社区结合的威力。两年间，有超过 2700 个开源的库或框架被添加进去，你只需要简单的命令行 &ndash; <code>pod install</code>，就可以轻松管理第三方库。</p>
 
-<p>开源社区对于 iOS 和 Mac OS X 开发的各个方面都有着巨大贡献，第三方库管理只是其中一个，其他方面还包括自动配置和分发、报告BUG、文档检索等。</p>
+<p>开源社区对于 iOS 和 Mac OS X 开发的各个方面都有着巨大贡献，第三方库管理只是其中一个，其他方面还包括<a href="http://nomad-cli.com/">自动配置和分发</a>、<a href="http://www.quickradar.com/">报告BUG</a>、<a href="http://cocoadocs.org/">文档检索</a>等。</p>
 
 <p>但是本周，我们聚焦于这样一个工具：它重新定义了构建过程，是新一代开发集成的基础——xctool。</p>
 
-<p>xctool 是 Fred Potter 的开源项目，来自于他在 Facebook 工作中创建的自动构建系统。xctool 用于替换 Xcode.app 中的 xcodebuild。</p>
+<p><a href="https://github.com/facebook/xctool">xctool</a> 是 <a href="https://github.com/fpotter">Fred Potter</a> 的开源项目，来自于他在 Facebook 工作中创建的自动构建系统。xctool 用于替换 Xcode.app 中的 <a href="https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/xcodebuild.1.html">xcodebuild</a>。</p>
 
 <p>在 Xcode 中点击“Build &amp; Run”，所有的 project、build target 和 scheme settings 都被传到 xcodebuild，xcodebuild 调用构建的命令行，然后执行 .ipa 文件运行在真机或模拟器上。</p>
 
 <p>这个过程我们只能祈祷它顺利了，因为 Xcode 将自己的构建系统封闭起来，我们从外部很难访问和控制。当我们试图通过 Terminal.app 和 xcodebuild 交互的时候，会发现真的很难用。</p>
 
-<p>与其使用上个时代的工具，狂打断点去遍历所有错误，不如让 xctool 来告诉什么是现代的解决方案。</p>
+<p>与其使用上个时代的工具，狂打断点去遍历所有错误，不如让 xctool 来告诉你什么是现代的解决方案。</p>
 
 <h3>美学和风格</h3>
 
@@ -130,10 +130,10 @@
 <ul>
 <li>pretty：（默认）输出样式使用 ANSI 标准色和 Unicode 符号</li>
 <li>plain：类似 pretty，但没有 ANSI 标准色和 Unicode 符号</li>
-<li>phabricator：将构建/测试的结果输出为 JSON 数组，可导入到 Phabricator 这个 code-review 工具</li>
-<li>junit：生成兼容 JUnit/xUnit 的 XML 格式的测试结果</li>
+<li>phabricator：将构建/测试的结果输出为 JSON 数组，可导入到 <a href="http://phabricator.org/">Phabricator</a> 这个 code-review 工具</li>
+<li>junit：生成兼容 <a href="http://junit.org/">JUnit</a>/<a href="http://xunit.codeplex.com/">xUnit</a> 的 XML 格式的测试结果</li>
 <li>json-stream：输出构建/测试的事件流 （ JSON 字典格式），一行一个（如图）</li>
-<li>json-compilation-database：输出 JSON Compilation Database，可用于基于 Clang Tooling 的工具，如 OCLint</li>
+<li>json-compilation-database：输出 <a href="http://clang.llvm.org/docs/JSONCompilationDatabase.html">JSON Compilation Database</a>，可用于基于 <a href="http://clang.llvm.org/docs/LibTooling.html">Clang Tooling</a> 的工具，如 <a href="http://oclint.org/">OCLint</a></li>
 </ul>
 
 
@@ -145,9 +145,9 @@
 
 <p>Travis CI</p>
 
-<p>Travis CI 为开源项目提供免费的持续集成服务（商业项目收费），支持 Objective-C。它可以在你每次提交到 GitHub 时自动运行你的测试代码，如果最新的提交导致构建失败它会通知你。</p>
+<p><a href="https://travis-ci.org/">Travis CI</a> 为开源项目提供免费的持续集成服务（商业项目收费），支持 Objective-C。它可以在你每次提交到 GitHub 时自动运行你的测试代码，如果最新的提交导致构建失败它会通知你。</p>
 
-<p>在你的 Objective-C 项目中添加 Travis CI，你需要创建账号绑定 GitHub，然后在你的 repo 中添加 .travis.yml 文件：</p>
+<p>在你的 Objective-C 项目中添加 Travis CI，你需要<a href="http://about.travis-ci.org/docs/user/getting-started/">创建账号绑定 GitHub</a>，然后在你的 repo 中添加 .travis.yml 文件：</p>
 
 <p>.travis.yml</p>
 
@@ -165,9 +165,9 @@
 
 <h3>OCLint</h3>
 
-<p>OCLint 是一个静态代码分析器，可以检测 Objective-C 代码（同时支持 C 和 C++），发现常见的问题：例如 if/else/try/catch/finally 声明出错、未被使用的本地实例和参数、过度复杂（有效代码行数 和 <a href="http://zh.wikipedia.org/wiki/%E5%9C%88%E8%A4%87%E9%9B%9C%E5%BA%A6">循环复杂度</a>太高）、冗余代码、<a href="http://zh.wikipedia.org/wiki/%E4%BB%A3%E7%A0%81%E5%BC%82%E5%91%B3">代码异味</a>、以及其他不好的代码。</p>
+<p><a href="http://oclint.org/">OCLint</a> 是一个静态代码分析器，可以检测 Objective-C 代码（同时支持 C 和 C++），发现常见的问题：例如 if/else/try/catch/finally 声明出错、未被使用的本地实例和参数、过度复杂（有效代码行数 和 <a href="http://zh.wikipedia.org/wiki/%E5%9C%88%E8%A4%87%E9%9B%9C%E5%BA%A6">循环复杂度</a>太高）、冗余代码、<a href="http://zh.wikipedia.org/wiki/%E4%BB%A3%E7%A0%81%E5%BC%82%E5%91%B3">代码异味</a>、以及其他不好的代码。</p>
 
-<p>还记得 xctool 的 json-compilation-database 格式吧，这种格式可以被 OCLint 直接读取，进而进行神奇的静态分析。</p>
+<p>还记得 xctool 的 json-compilation-database 格式吧，这种格式可以<a href="http://docs.oclint.org/en/dev/guide/xctool.html">被 OCLint 直接读取</a>，进而进行神奇的静态分析。</p>
 
 <p>在我写这篇文章的时候，离构建系统集成被广泛接受还有很长的路，但我的希望是，既然已经开始，
 大家就应该齐心协力，让这个有前途的工具变得更加的强大。</p>
@@ -179,6 +179,8 @@
 <p>我们是该成为平庸的业余者，还是该成为改善技术的关键角色？</p>
 
 <p>xctool，和社区的其他工具一样，为这门语言的未来和生态，提供了希望和灵感。让我们继续创造这样强大的工具，创造我们为之自豪的开发体验。</p>
+
+<p><em>注：本文译自 <a href="http://nshipster.com/xctool/">NSHipster</a></em></p>
 </div>
 
 
