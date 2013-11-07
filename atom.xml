@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[yfme's blog]]></title>
-  <link href="http://yfme.github.io/atom.xml" rel="self"/>
-  <link href="http://yfme.github.io/"/>
-  <updated>2013-11-07T11:48:54+08:00</updated>
-  <id>http://yfme.github.io/</id>
+  <title><![CDATA[yangfei.me]]></title>
+  <link href="http://yangfei.me/atom.xml" rel="self"/>
+  <link href="http://yangfei.me/"/>
+  <updated>2013-11-07T13:30:32+08:00</updated>
+  <id>http://yangfei.me/</id>
   <author>
     <name><![CDATA[Fei Yang]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[让构建和测试变得更轻松：xctool]]></title>
-    <link href="http://yfme.github.io/blog/2013-11-06-xctool/"/>
+    <link href="http://yangfei.me/blog/2013-11-06-xctool/"/>
     <updated>2013-11-06T18:00:00+08:00</updated>
-    <id>http://yfme.github.io/blog/xctool</id>
+    <id>http://yangfei.me/blog/xctool</id>
     <content type="html"><![CDATA[<blockquote><p>控制了一门语言的构建系统（build system），就控制了这门语言的命运，以及它的生态和社区。</p></blockquote>
 
 <p>Objective-C 用很短的时间，取得了非常大的变化。在短短几年间，这门语言从 NeXT 的“废墟”中走出，成为<a href="http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html">颇具影响力</a>的一门语言。开源社区对于 Objective-C 有着巨大的贡献，其中一个很重要的方面是：开发工具。</p>
@@ -43,7 +43,7 @@
 
 <p>xctool 给人的第一印象是它那漂亮、彩色的输出样式。</p>
 
-<p><img src="http://yfme.github.io/images/2013-11-06-pic-0.gif"></p>
+<p><img src="http://yangfei.me/images/2013-11-06-pic-0.gif"></p>
 
 <p>我们自己作为苹果硬件和软件的用户，对设计绝对不会轻视。xctool 也是。
 它把构建过程的每一步都组织的很整洁，通过 ANSI 标准色 和 Unicode 符号输出易懂、易读的报告。</p>
@@ -115,9 +115,9 @@
   
   <entry>
     <title type="html"><![CDATA[iDev Weekly - 1105]]></title>
-    <link href="http://yfme.github.io/blog/2013-11-05-idevweekly/"/>
+    <link href="http://yangfei.me/blog/2013-11-05-idevweekly/"/>
     <updated>2013-11-05T18:00:00+08:00</updated>
-    <id>http://yfme.github.io/blog/idevweekly</id>
+    <id>http://yangfei.me/blog/idevweekly</id>
     <content type="html"><![CDATA[<h5>• <a href="http://ionicons.com/">ionicons</a> / <a href="https://github.com/TapTemplate/ionicons-iOS">ionicons-iOS</a></h5>
 
 <p>ionicons 是一套免费开源的图标字体，其中一半为 iOS 7 的系统图标，另一半风格也相似。ionicons-iOS 是他们提供的一个 iOS 库，使得在 iOS app 中使用 ionicons 非常方便，你可以作为 UIFont 使用，也可以作为 UILabel 和 UIImage。使用 ionicons 的好处是，你可以更自由地控制系统图标的大小、颜色，而且还有其他图标可选，更重要的是它支持 iOS 5+，这样你所有版本的 app 就可以保持统一的图标风格。</p>
@@ -125,7 +125,11 @@
 <!-- more -->
 
 
-<p><img src="http://yfme.github.io/images/2013-11-05-pic-0.png"></p>
+<p><img src="http://yangfei.me/images/2013-11-05-pic-0.png"></p>
+
+<h5>• <a href="http://yangfei.me/blog/2013-11-06-xctool/">让构建/测试((build/test)变得更轻松：xctool</a></h5>
+
+<p>xctool 是 Fred Potter 的开源项目，来自于他在 Facebook 工作中创建的自动构建系统。xctool 用于替换 Xcode.app 中的 xcodebuild，让构建和测试变得更轻松。</p>
 
 <h5>• <a href="http://www.appcoda.com/customize-navigation-status-bar-ios-7">自定义 iOS 7 中 Navigation Bar 和 Status Bar</a></h5>
 
@@ -135,7 +139,7 @@
 
 <p>一种新颖的表单交互设计，非常棒。（本文有<a href="http://beforweb.com/node/337">中文翻译</a> By C7210）</p>
 
-<p><img src="http://yfme.github.io/images/2013-11-05-pic-1.gif"></p>
+<p><img src="http://yangfei.me/images/2013-11-05-pic-1.gif"></p>
 
 <h5>• <a href="http://www.shinobicontrols.com/blog/posts/2013/09/19/introducing-ios7-day-by-day/">每天一篇 • iOS 7 新特性</a></h5>
 
@@ -178,9 +182,9 @@
   
   <entry>
     <title type="html"><![CDATA[iDev Weekly - 1009]]></title>
-    <link href="http://yfme.github.io/blog/2013-10-29-idevweekly/"/>
+    <link href="http://yangfei.me/blog/2013-10-29-idevweekly/"/>
     <updated>2013-10-29T12:51:00+08:00</updated>
-    <id>http://yfme.github.io/blog/idevweekly</id>
+    <id>http://yangfei.me/blog/idevweekly</id>
     <content type="html"><![CDATA[<h3>新闻</h3>
 
 <h5><a href="http://engineering.linkedin.com/mobile/linkedin-intro-doing-impossible-ios?utm_source=iOS+Dev+Weekly&amp;utm_campaign=iOS_Dev_Weekly_Issue_117&amp;utm_medium=email">LinkedIn Intro: Doing the Impossible on iOS</a></h5>
@@ -190,7 +194,7 @@
 <!-- more -->
 
 
-<p><img src="http://yfme.github.io/images/2013-10-29-pic-0.png"></p>
+<p><img src="http://yangfei.me/images/2013-10-29-pic-0.png"></p>
 
 <h3>工具</h3>
 
@@ -240,15 +244,15 @@
   
   <entry>
     <title type="html"><![CDATA[M7 为开发者提供了哪些新东西？]]></title>
-    <link href="http://yfme.github.io/blog/2013-10-23-what-is-new-for-m7/"/>
+    <link href="http://yangfei.me/blog/2013-10-23-what-is-new-for-m7/"/>
     <updated>2013-10-23T13:55:00+08:00</updated>
-    <id>http://yfme.github.io/blog/what-is-new-for-m7</id>
+    <id>http://yangfei.me/blog/what-is-new-for-m7</id>
     <content type="html"><![CDATA[<p>昨晚新发布的 iPad Air、iPad mini 2， 跟一个月前发布的 iPhone 5s 一样，都带了那款 M7 运动协处理器。</p>
 
 <!-- more -->
 
 
-<p><img src="http://yfme.github.io/images/2013-10-23-pic-0.png"></p>
+<p><img src="http://yangfei.me/images/2013-10-23-pic-0.png"></p>
 
 <p>关于 M7 的作用，苹果描述的通俗易懂：</p>
 
@@ -272,9 +276,9 @@
 
 <p>我们可以从文档更新情况看出，2013年9月，CoreMotion 中仅增加了计步(CMStepCounter)、活动状态(CMMotionActivity)相关的类。</p>
 
-<p><img src="http://yfme.github.io/images/2013-10-23-pic-2.png"></p>
+<p><img src="http://yangfei.me/images/2013-10-23-pic-2.png"></p>
 
-<p><img class="right" src="http://yfme.github.io/images/2013-10-23-pic-1.png"></p>
+<p><img class="right" src="http://yangfei.me/images/2013-10-23-pic-1.png"></p>
 
 <p>新增的类：</p>
 
@@ -354,9 +358,9 @@
   
   <entry>
     <title type="html"><![CDATA[AFNetworking 2.0 来了]]></title>
-    <link href="http://yfme.github.io/blog/2013-09-30-afnetworking-2-came/"/>
+    <link href="http://yangfei.me/blog/2013-09-30-afnetworking-2-came/"/>
     <updated>2013-09-30T20:04:00+08:00</updated>
-    <id>http://yfme.github.io/blog/afnetworking-2-came</id>
+    <id>http://yangfei.me/blog/afnetworking-2-came</id>
     <content type="html"><![CDATA[<p>前几天 Mattt 发布了 AFNetworking 2.0，我的一个最大感慨就是，他怎么那么高产？</p>
 
 <!-- more -->
