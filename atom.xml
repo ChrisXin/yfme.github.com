@@ -4,7 +4,7 @@
   <title><![CDATA[yangfei.me]]></title>
   <link href="http://yangfei.me/atom.xml" rel="self"/>
   <link href="http://yangfei.me/"/>
-  <updated>2013-11-12T14:49:24+08:00</updated>
+  <updated>2013-11-26T15:54:18+08:00</updated>
   <id>http://yangfei.me/</id>
   <author>
     <name><![CDATA[Fei Yang]]></name>
@@ -14,7 +14,65 @@
 
   
   <entry>
-    <title type="html"><![CDATA[iDev Weekly - 1112]]></title>
+    <title type="html"><![CDATA[iDev Weekly #4]]></title>
+    <link href="http://yangfei.me/blog/2013-11-26-idevweekly/"/>
+    <updated>2013-11-26T18:00:00+08:00</updated>
+    <id>http://yangfei.me/blog/idevweekly</id>
+    <content type="html"><![CDATA[<h2>文章</h2>
+
+<h4>• <a href="http://onevcat.com/2013/11/ios-iap-checklist/">iOS 内购实现及测试 Check List</a></h4>
+
+<p>如果你在搞 IAP 的时候遇到问题，看 @onevca 这篇就行了。</p>
+
+<!-- more -->
+
+
+<h4>• <a href="http://beyondvincent.com/blog/2013/11/21/123-build-process/">iOS 程序的 Build 过程</a></h4>
+
+<p>上期推荐了 objc.io #6 Build Tools，破船翻译了其中的 The Build Process。</p>
+
+<h4>• <a href="https://github.com/hzlzh/Best-App">Best App</a></h4>
+
+<p>收集 &amp; 推荐优秀的 Apps (Mac OS &amp; iOS)。</p>
+
+<h2>工具</h2>
+
+<h4>• <a href="http://davander.com/podlife.html">Podlife</a></h4>
+
+<p>监控、查看、搜索 Cocoapods 项目的 app。</p>
+
+<h4>• <a href="http://shinydevelopment.com/status-magic/">Status Magic</a></h4>
+
+<p>快速定制完美的状态栏，节省开发者制作 app 截图的时间，¥45。如果你熟悉 Python 的话，可以自己动手，丰衣足食，<a href="http://www.leancrew.com/all-this/2013/11/again-with-the-statusbar-cleaning/">《Again with the statusbar cleaning》</a>。</p>
+
+<h2>代码</h2>
+
+<h4>• <a href="https://github.com/yackle/CLImageEditor">CLImageEditor</a></h4>
+
+<p>功能齐全的图片编辑器。</p>
+
+<h4>• <a href="https://github.com/andrealufino/ALSystemUtilities">ALSystemUtilities</a></h4>
+
+<p>提供非常全的系统数据，如：电量、剩余空间、内存、网络、运营商等超过70个方法。还有一个类似的库： <a href="https://github.com/Shmoopi/iOS-System-Services">iOS-System-Services</a>。</p>
+
+<h4>• <a href="https://github.com/xiaodao/UIDynamicExample">UIDynamicExample</a></h4>
+
+<p>iOS 7 动态特性的示例，包括重力、碰撞、粘附、捕获等。</p>
+
+<h4>• <a href="https://github.com/CooperRS/RMStepsController">RMStepsController</a></h4>
+
+<p>步骤条，适合有多步操作逻辑的界面。</p>
+
+<h2>设计</h2>
+
+<h4>• <a href="http://www.squarespace.com/apps">Squarespace</a></h4>
+
+<p>最近给我深刻印象的设计是 Squarespace 出品的一系列 app，极度简约，有中国水墨画的味道。各位体验下。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[iDev Weekly #3]]></title>
     <link href="http://yangfei.me/blog/2013-11-12-idevweekly/"/>
     <updated>2013-11-12T18:00:00+08:00</updated>
     <id>http://yangfei.me/blog/idevweekly</id>
@@ -203,7 +261,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[iDev Weekly - 1105]]></title>
+    <title type="html"><![CDATA[iDev Weekly #2]]></title>
     <link href="http://yangfei.me/blog/2013-11-05-idevweekly/"/>
     <updated>2013-11-05T18:00:00+08:00</updated>
     <id>http://yangfei.me/blog/idevweekly</id>
@@ -270,7 +328,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[iDev Weekly - 1009]]></title>
+    <title type="html"><![CDATA[iDev Weekly #1]]></title>
     <link href="http://yangfei.me/blog/2013-10-29-idevweekly/"/>
     <updated>2013-10-29T12:51:00+08:00</updated>
     <id>http://yangfei.me/blog/idevweekly</id>
