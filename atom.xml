@@ -4,7 +4,7 @@
   <title><![CDATA[yangfei.me]]></title>
   <link href="http://yangfei.me/atom.xml" rel="self"/>
   <link href="http://yangfei.me/"/>
-  <updated>2013-11-26T15:54:18+08:00</updated>
+  <updated>2013-11-26T16:12:58+08:00</updated>
   <id>http://yangfei.me/</id>
   <author>
     <name><![CDATA[Fei Yang]]></name>
@@ -15,27 +15,27 @@
   
   <entry>
     <title type="html"><![CDATA[iDev Weekly #4]]></title>
-    <link href="http://yangfei.me/blog/2013-11-26-idevweekly/"/>
+    <link href="http://yangfei.me/blog/idevweekly-4/"/>
     <updated>2013-11-26T18:00:00+08:00</updated>
-    <id>http://yangfei.me/blog/idevweekly</id>
+    <id>http://yangfei.me/blog/idevweekly-4</id>
     <content type="html"><![CDATA[<h2>文章</h2>
 
 <h4>• <a href="http://onevcat.com/2013/11/ios-iap-checklist/">iOS 内购实现及测试 Check List</a></h4>
 
-<p>如果你在搞 IAP 的时候遇到问题，看 @onevca 这篇就行了。</p>
+<p>如果你在搞 IAP 的时候遇到问题，看 @onevcat 这篇就行了。</p>
 
 <!-- more -->
 
 
 <h4>• <a href="http://beyondvincent.com/blog/2013/11/21/123-build-process/">iOS 程序的 Build 过程</a></h4>
 
-<p>上期推荐了 objc.io #6 Build Tools，破船翻译了其中的 The Build Process。</p>
+<p>上期推荐了 objc.io #6 Build Tools，破船翻译了其中的一篇。</p>
+
+<h2>工具</h2>
 
 <h4>• <a href="https://github.com/hzlzh/Best-App">Best App</a></h4>
 
 <p>收集 &amp; 推荐优秀的 Apps (Mac OS &amp; iOS)。</p>
-
-<h2>工具</h2>
 
 <h4>• <a href="http://davander.com/podlife.html">Podlife</a></h4>
 
@@ -73,7 +73,7 @@
   
   <entry>
     <title type="html"><![CDATA[iDev Weekly #3]]></title>
-    <link href="http://yangfei.me/blog/2013-11-12-idevweekly/"/>
+    <link href="http://yangfei.me/blog/idevweekly/"/>
     <updated>2013-11-12T18:00:00+08:00</updated>
     <id>http://yangfei.me/blog/idevweekly</id>
     <content type="html"><![CDATA[<h2>文章</h2>
@@ -162,7 +162,7 @@
   
   <entry>
     <title type="html"><![CDATA[让构建和测试变得更轻松：xctool]]></title>
-    <link href="http://yangfei.me/blog/2013-11-06-xctool/"/>
+    <link href="http://yangfei.me/blog/xctool/"/>
     <updated>2013-11-06T18:00:00+08:00</updated>
     <id>http://yangfei.me/blog/xctool</id>
     <content type="html"><![CDATA[<blockquote><p>控制了一门语言的构建系统（build system），就控制了这门语言的命运，以及它的生态和社区。</p></blockquote>
@@ -250,7 +250,7 @@
 
 <p>这就像一座城市，随着人口的增长，基础设施就需要改变。通过各种各样的方式，通过本地政府、新兴组织，或者其他。总之，环境需要改变，以适应人口的增长。</p>
 
-<p>Objective-C 已经并且还将随着 iOS 设备的流行而快速进化。为更多新进开发者提供必要的基础设施是社区的责任，当然这离不开与苹果的协作（有时是反对或抗议）。我们在这方面做得如何，决定了我们是否真正理解并传达了作为专业开发者应当扮演的角色，以及应当承担责任。</p>
+<p>Objective-C 已经并且还将随着 iOS 设备的流行而快速进化。为更多新进开发者提供必要的基础设施是社区的责任，当然这离不开与苹果的协作（有时是反对或抗议）。我们在这方面做得如何，决定了我们是否真正理解并传达了作为专业开发者应当扮演的角色，以及应当的承担责任。</p>
 
 <p>我们是该成为平庸的业余者，还是该成为改善技术的关键角色？</p>
 
@@ -262,7 +262,7 @@
   
   <entry>
     <title type="html"><![CDATA[iDev Weekly #2]]></title>
-    <link href="http://yangfei.me/blog/2013-11-05-idevweekly/"/>
+    <link href="http://yangfei.me/blog/idevweekly/"/>
     <updated>2013-11-05T18:00:00+08:00</updated>
     <id>http://yangfei.me/blog/idevweekly</id>
     <content type="html"><![CDATA[<h5>• <a href="http://ionicons.com/">ionicons</a> / <a href="https://github.com/TapTemplate/ionicons-iOS">ionicons-iOS</a></h5>
@@ -329,7 +329,7 @@
   
   <entry>
     <title type="html"><![CDATA[iDev Weekly #1]]></title>
-    <link href="http://yangfei.me/blog/2013-10-29-idevweekly/"/>
+    <link href="http://yangfei.me/blog/idevweekly/"/>
     <updated>2013-10-29T12:51:00+08:00</updated>
     <id>http://yangfei.me/blog/idevweekly</id>
     <content type="html"><![CDATA[<h3>新闻</h3>
@@ -391,7 +391,7 @@
   
   <entry>
     <title type="html"><![CDATA[M7 为开发者提供了哪些新东西？]]></title>
-    <link href="http://yangfei.me/blog/2013-10-23-what-is-new-for-m7/"/>
+    <link href="http://yangfei.me/blog/what-is-new-for-m7/"/>
     <updated>2013-10-23T13:55:00+08:00</updated>
     <id>http://yangfei.me/blog/what-is-new-for-m7</id>
     <content type="html"><![CDATA[<p>昨晚新发布的 iPad Air、iPad mini 2， 跟一个月前发布的 iPhone 5s 一样，都带了那款 M7 运动协处理器。</p>
@@ -505,7 +505,7 @@
   
   <entry>
     <title type="html"><![CDATA[AFNetworking 2.0 来了]]></title>
-    <link href="http://yangfei.me/blog/2013-09-30-afnetworking-2-came/"/>
+    <link href="http://yangfei.me/blog/afnetworking-2-came/"/>
     <updated>2013-09-30T20:04:00+08:00</updated>
     <id>http://yangfei.me/blog/afnetworking-2-came</id>
     <content type="html"><![CDATA[<p>前几天 Mattt 发布了 AFNetworking 2.0，我的一个最大感慨就是，他怎么那么高产？</p>
