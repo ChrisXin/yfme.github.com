@@ -9,7 +9,7 @@
   <meta name="author" content="Fei Yang">
 
   
-  <meta name="description" content="文章 • iOS 内购实现及测试 Check List 如果你在搞 IAP 的时候遇到问题，看 @onevcat 这篇就行了。 ">
+  <meta name="description" content="工具 Watchdog Xcode 产生的缓存数据在 /Users/xxx/Library/Developer/Xcode/DerivedData，理论上讲，它会无限增大，你可以定期手动删除 DerivedData 文件夹，但终归有些麻烦。Watchdog 能让这件事更轻松，看看是不是对你有用，$ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -69,6 +69,80 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/idevweekly-5/">iDev Weekly #5</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-03T18:00:00+08:00" pubdate data-updated="true">Dec 3<span>rd</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2>工具</h2>
+
+<h4><a href="http://watchdogforxcode.com/about/">Watchdog</a></h4>
+
+<p>Xcode 产生的缓存数据在 /Users/xxx/Library/Developer/Xcode/DerivedData，理论上讲，它会无限增大，你可以定期手动删除 DerivedData 文件夹，但终归有些麻烦。Watchdog 能让这件事更轻松，看看是不是对你有用，<a href="https://itunes.apple.com/us/app/watchdogforxcode/id734258109?mt=12">$1.99</a>。</p>
+
+<h4><a href="https://github.com/qfish/XAlign">XAligh</a></h4>
+
+<p>代码自动排版的 Xcode 插件。</p>
+
+<h4><a href="https://github.com/ricobeck/KFCocoaPodsPlugin">KFCocoaPodsPlugin</a></h4>
+
+<p>方便在 Xcode 中操作 CocoaPods 的插件。</p>
+
+<h2>代码</h2>
+
+<h4><a href="https://github.com/lyokato/FBDigitalFont">FBDigitalFont</a> / <a href="https://github.com/lyokato/FBGlowLabel">FBGlowLabel</a></h4>
+
+<p>来自 @lyokato 的“亮瞎”系列，亮瞎字体和亮瞎标签。</p>
+
+<h4><a href="https://github.com/rexfinn/RFMarkdownTextView">RFMarkdownTextView</a></h4>
+
+<p>继承自 UITextView，自动在键盘上方加 Markdown 的常用符号。</p>
+
+<h2>文章</h2>
+
+<h4><a href="http://nshipster.com/nsnotification-and-nsnotificationcenter/">NSNotification</a> / <a href="http://nshipster.com/nsfilemanager/">NSFilemanager</a></h4>
+
+<p>NSHipster 最近的两篇文章，关于 NSNotification 和 NSFilemanager。</p>
+
+<h4><a href="http://lianxu.me/blog/2012/11/14/10-cocoa-objc-newbie-problems">10个迷惑新手的Cocoa&amp;Objective-C开发问题</a></h4>
+
+<p>虽然作者没有把坑填平…依然是一篇好文，值得一读。</p>
+
+<h2>设计</h2>
+
+<h4><a href="https://hackdesign.org/toolkit/ios-design/">The best design tools for iOS Design</a></h4>
+
+<p><a href="https://hackdesign.org">Hack Design</a> 整理的<a href="https://hackdesign.org/toolkit/">最佳设计工具集</a>。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/idevweekly-4/">iDev Weekly #4</a></h1>
     
     
@@ -114,7 +188,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/idevweekly/">iDev Weekly #3</a></h1>
+      <h1 class="entry-title"><a href="/blog/idevweekly-3/">iDev Weekly #3</a></h1>
     
     
       <p class="meta">
@@ -147,7 +221,7 @@
   
   
     <footer>
-      <a rel="full-article" href="/blog/idevweekly/">阅读 &rarr;</a>
+      <a rel="full-article" href="/blog/idevweekly-3/">阅读 &rarr;</a>
     </footer>
   
 
@@ -202,7 +276,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/idevweekly/">iDev Weekly #2</a></h1>
+      <h1 class="entry-title"><a href="/blog/idevweekly-2/">iDev Weekly #2</a></h1>
     
     
       <p class="meta">
@@ -233,7 +307,7 @@
   
   
     <footer>
-      <a rel="full-article" href="/blog/idevweekly/">阅读 &rarr;</a>
+      <a rel="full-article" href="/blog/idevweekly-2/">阅读 &rarr;</a>
     </footer>
   
 
@@ -245,7 +319,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/idevweekly/">iDev Weekly #1</a></h1>
+      <h1 class="entry-title"><a href="/blog/idevweekly-1/">iDev Weekly #1</a></h1>
     
     
       <p class="meta">
@@ -278,7 +352,7 @@
   
   
     <footer>
-      <a rel="full-article" href="/blog/idevweekly/">阅读 &rarr;</a>
+      <a rel="full-article" href="/blog/idevweekly-1/">阅读 &rarr;</a>
     </footer>
   
 
@@ -380,11 +454,15 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/idevweekly-5/">iDev Weekly #5</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/idevweekly-4/">iDev Weekly #4</a>
       </li>
     
       <li class="post">
-        <a href="/blog/idevweekly/">iDev Weekly #3</a>
+        <a href="/blog/idevweekly-3/">iDev Weekly #3</a>
       </li>
     
       <li class="post">
@@ -392,11 +470,7 @@
       </li>
     
       <li class="post">
-        <a href="/blog/idevweekly/">iDev Weekly #2</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/idevweekly/">iDev Weekly #1</a>
+        <a href="/blog/idevweekly-2/">iDev Weekly #2</a>
       </li>
     
   </ul>

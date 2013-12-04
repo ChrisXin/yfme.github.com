@@ -4,7 +4,7 @@
   <title><![CDATA[yangfei.me]]></title>
   <link href="http://yangfei.me/atom.xml" rel="self"/>
   <link href="http://yangfei.me/"/>
-  <updated>2013-11-26T16:12:58+08:00</updated>
+  <updated>2013-12-04T17:42:09+08:00</updated>
   <id>http://yangfei.me/</id>
   <author>
     <name><![CDATA[Fei Yang]]></name>
@@ -12,6 +12,53 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[iDev Weekly #5]]></title>
+    <link href="http://yangfei.me/blog/idevweekly-5/"/>
+    <updated>2013-12-03T18:00:00+08:00</updated>
+    <id>http://yangfei.me/blog/idevweekly-5</id>
+    <content type="html"><![CDATA[<h2>工具</h2>
+
+<h4><a href="http://watchdogforxcode.com/about/">Watchdog</a></h4>
+
+<p>Xcode 产生的缓存数据在 /Users/xxx/Library/Developer/Xcode/DerivedData，理论上讲，它会无限增大，你可以定期手动删除 DerivedData 文件夹，但终归有些麻烦。Watchdog 能让这件事更轻松，看看是不是对你有用，<a href="https://itunes.apple.com/us/app/watchdogforxcode/id734258109?mt=12">$1.99</a>。</p>
+
+<h4><a href="https://github.com/qfish/XAlign">XAligh</a></h4>
+
+<p>代码自动排版的 Xcode 插件。</p>
+
+<h4><a href="https://github.com/ricobeck/KFCocoaPodsPlugin">KFCocoaPodsPlugin</a></h4>
+
+<p>方便在 Xcode 中操作 CocoaPods 的插件。</p>
+
+<h2>代码</h2>
+
+<h4><a href="https://github.com/lyokato/FBDigitalFont">FBDigitalFont</a> / <a href="https://github.com/lyokato/FBGlowLabel">FBGlowLabel</a></h4>
+
+<p>来自 @lyokato 的“亮瞎”系列，亮瞎字体和亮瞎标签。</p>
+
+<h4><a href="https://github.com/rexfinn/RFMarkdownTextView">RFMarkdownTextView</a></h4>
+
+<p>继承自 UITextView，自动在键盘上方加 Markdown 的常用符号。</p>
+
+<h2>文章</h2>
+
+<h4><a href="http://nshipster.com/nsnotification-and-nsnotificationcenter/">NSNotification</a> / <a href="http://nshipster.com/nsfilemanager/">NSFilemanager</a></h4>
+
+<p>NSHipster 最近的两篇文章，关于 NSNotification 和 NSFilemanager。</p>
+
+<h4><a href="http://lianxu.me/blog/2012/11/14/10-cocoa-objc-newbie-problems">10个迷惑新手的Cocoa&amp;Objective-C开发问题</a></h4>
+
+<p>虽然作者没有把坑填平…依然是一篇好文，值得一读。</p>
+
+<h2>设计</h2>
+
+<h4><a href="https://hackdesign.org/toolkit/ios-design/">The best design tools for iOS Design</a></h4>
+
+<p><a href="https://hackdesign.org">Hack Design</a> 整理的<a href="https://hackdesign.org/toolkit/">最佳设计工具集</a>。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[iDev Weekly #4]]></title>
@@ -73,9 +120,9 @@
   
   <entry>
     <title type="html"><![CDATA[iDev Weekly #3]]></title>
-    <link href="http://yangfei.me/blog/idevweekly/"/>
+    <link href="http://yangfei.me/blog/idevweekly-3/"/>
     <updated>2013-11-12T18:00:00+08:00</updated>
-    <id>http://yangfei.me/blog/idevweekly</id>
+    <id>http://yangfei.me/blog/idevweekly-3</id>
     <content type="html"><![CDATA[<h2>文章</h2>
 
 <h4>• <a href="http://www.objc.io/issue-6/">objc.io #6 Build Tools</a></h4>
@@ -141,7 +188,7 @@
 
 <p>简单、漂亮的线状图/柱状图。</p>
 
-<h4>• <a href="https://github.com/lgaches/BeaconEmitter">BeaconEmitter</a>/<a href="https://github.com/mttrb/BeaconOSX">BeaconOSX</a></h4>
+<h4>• <a href="https://github.com/lgaches/BeaconEmitter">BeaconEmitter</a> / <a href="https://github.com/mttrb/BeaconOSX">BeaconOSX</a></h4>
 
 <p>将 Mac 变成 iBeacon。</p>
 
@@ -262,9 +309,9 @@
   
   <entry>
     <title type="html"><![CDATA[iDev Weekly #2]]></title>
-    <link href="http://yangfei.me/blog/idevweekly/"/>
+    <link href="http://yangfei.me/blog/idevweekly-2/"/>
     <updated>2013-11-05T18:00:00+08:00</updated>
-    <id>http://yangfei.me/blog/idevweekly</id>
+    <id>http://yangfei.me/blog/idevweekly-2</id>
     <content type="html"><![CDATA[<h5>• <a href="http://ionicons.com/">ionicons</a> / <a href="https://github.com/TapTemplate/ionicons-iOS">ionicons-iOS</a></h5>
 
 <p>ionicons 是一套免费开源的图标字体，其中一半为 iOS 7 的系统图标，另一半风格也相似。ionicons-iOS 是他们提供的一个 iOS 库，使得在 iOS app 中使用 ionicons 非常方便，你可以作为 UIFont 使用，也可以作为 UILabel 和 UIImage。使用 ionicons 的好处是，你可以更自由地控制系统图标的大小、颜色，而且还有其他图标可选，更重要的是它支持 iOS 5+，这样你所有版本的 app 就可以保持统一的图标风格。</p>
@@ -329,9 +376,9 @@
   
   <entry>
     <title type="html"><![CDATA[iDev Weekly #1]]></title>
-    <link href="http://yangfei.me/blog/idevweekly/"/>
+    <link href="http://yangfei.me/blog/idevweekly-1/"/>
     <updated>2013-10-29T12:51:00+08:00</updated>
-    <id>http://yangfei.me/blog/idevweekly</id>
+    <id>http://yangfei.me/blog/idevweekly-1</id>
     <content type="html"><![CDATA[<h3>新闻</h3>
 
 <h5><a href="http://engineering.linkedin.com/mobile/linkedin-intro-doing-impossible-ios?utm_source=iOS+Dev+Weekly&amp;utm_campaign=iOS_Dev_Weekly_Issue_117&amp;utm_medium=email">LinkedIn Intro: Doing the Impossible on iOS</a></h5>
