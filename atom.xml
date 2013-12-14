@@ -4,7 +4,7 @@
   <title><![CDATA[yangfei.me]]></title>
   <link href="http://yangfei.me/atom.xml" rel="self"/>
   <link href="http://yangfei.me/"/>
-  <updated>2013-12-04T17:42:09+08:00</updated>
+  <updated>2013-12-14T18:59:38+08:00</updated>
   <id>http://yangfei.me/</id>
   <author>
     <name><![CDATA[Fei Yang]]></name>
@@ -12,6 +12,56 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[iDev Weekly #6]]></title>
+    <link href="http://yangfei.me/blog/idevweekly-6/"/>
+    <updated>2013-12-14T18:00:00+08:00</updated>
+    <id>http://yangfei.me/blog/idevweekly-6</id>
+    <content type="html"><![CDATA[<h2>代码</h2>
+
+<h5><a href="https://github.com/lazerwalker/MWOpenInKit">MWOpenInKit</a></h5>
+
+<p>方向很好，目标是增强版的 UIActivityViewController，提供更丰富的 app 跳转。但现在还不够强大，期待更多人贡献代码。</p>
+
+<!-- more -->
+
+
+<h5><a href="https://github.com/Jawbone/JBChartView">JBChartView</a></h5>
+
+<p>Jawbone 公司开源的线状图柱状图组件。</p>
+
+<h5><a href="https://github.com/terryworona/TWMessageBarManager">TWMessageBarManager</a></h5>
+
+<p>清爽的消息提示条。</p>
+
+<h5><a href="https://github.com/shu223/PulsingHalo">PulsingHalo</a></h5>
+
+<p>脉冲动画，可用于 iBeacon 或者地图的 annotation。</p>
+
+<h2>设计</h2>
+
+<h5><a href="http://speckyboy.com/2013/12/09/top-50-free-icon-sets-2013/">Top 50 Free Icon Sets From 2013</a></h5>
+
+<p>2013年最佳免费 Icon 合集。</p>
+
+<h2>开源项目</h2>
+
+<h4><a href="https://github.com/nicklockwood/Concurrency">Concurrency</a></h4>
+
+<p>App Store 中一款汇率转化的 app。</p>
+
+<h2>其他</h2>
+
+<h5><a href="https://itunes.apple.com/us/app/id777716569?mt=8">12 Days of Gifts</a></h5>
+
+<p>苹果推出的圣诞主题的 app。</p>
+
+<h5><a href="http://asciiwwdc.com/contribute">ASCIIwwdc 2012</a></h5>
+
+<p>2012 年的 WWDC sessions 是没有字幕的，如果你有兴趣听写出来，可以给 ASCIIwwdc 项目做贡献。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[iDev Weekly #5]]></title>
@@ -23,6 +73,9 @@
 <h4><a href="http://watchdogforxcode.com/about/">Watchdog</a></h4>
 
 <p>Xcode 产生的缓存数据在 /Users/xxx/Library/Developer/Xcode/DerivedData，理论上讲，它会无限增大，你可以定期手动删除 DerivedData 文件夹，但终归有些麻烦。Watchdog 能让这件事更轻松，看看是不是对你有用，<a href="https://itunes.apple.com/us/app/watchdogforxcode/id734258109?mt=12">$1.99</a>。</p>
+
+<!-- more -->
+
 
 <h4><a href="https://github.com/qfish/XAlign">XAligh</a></h4>
 
