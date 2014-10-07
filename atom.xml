@@ -4,7 +4,7 @@
   <title><![CDATA[yangfei.me]]></title>
   <link href="http://yangfei.me/atom.xml" rel="self"/>
   <link href="http://yangfei.me/"/>
-  <updated>2013-12-14T18:59:38+08:00</updated>
+  <updated>2014-10-07T17:52:59+08:00</updated>
   <id>http://yangfei.me/</id>
   <author>
     <name><![CDATA[Fei Yang]]></name>
@@ -12,253 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[iDev Weekly #6]]></title>
-    <link href="http://yangfei.me/blog/idevweekly-6/"/>
-    <updated>2013-12-14T18:00:00+08:00</updated>
-    <id>http://yangfei.me/blog/idevweekly-6</id>
-    <content type="html"><![CDATA[<h2>代码</h2>
-
-<h5><a href="https://github.com/lazerwalker/MWOpenInKit">MWOpenInKit</a></h5>
-
-<p>方向很好，目标是增强版的 UIActivityViewController，提供更丰富的 app 跳转。但现在还不够强大，期待更多人贡献代码。</p>
-
-<!-- more -->
-
-
-<h5><a href="https://github.com/Jawbone/JBChartView">JBChartView</a></h5>
-
-<p>Jawbone 公司开源的线状图柱状图组件。</p>
-
-<h5><a href="https://github.com/terryworona/TWMessageBarManager">TWMessageBarManager</a></h5>
-
-<p>清爽的消息提示条。</p>
-
-<h5><a href="https://github.com/shu223/PulsingHalo">PulsingHalo</a></h5>
-
-<p>脉冲动画，可用于 iBeacon 或者地图的 annotation。</p>
-
-<h2>设计</h2>
-
-<h5><a href="http://speckyboy.com/2013/12/09/top-50-free-icon-sets-2013/">Top 50 Free Icon Sets From 2013</a></h5>
-
-<p>2013年最佳免费 Icon 合集。</p>
-
-<h2>开源项目</h2>
-
-<h4><a href="https://github.com/nicklockwood/Concurrency">Concurrency</a></h4>
-
-<p>App Store 中一款汇率转化的 app。</p>
-
-<h2>其他</h2>
-
-<h5><a href="https://itunes.apple.com/us/app/id777716569?mt=8">12 Days of Gifts</a></h5>
-
-<p>苹果推出的圣诞主题的 app。</p>
-
-<h5><a href="http://asciiwwdc.com/contribute">ASCIIwwdc 2012</a></h5>
-
-<p>2012 年的 WWDC sessions 是没有字幕的，如果你有兴趣听写出来，可以给 ASCIIwwdc 项目做贡献。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[iDev Weekly #5]]></title>
-    <link href="http://yangfei.me/blog/idevweekly-5/"/>
-    <updated>2013-12-03T18:00:00+08:00</updated>
-    <id>http://yangfei.me/blog/idevweekly-5</id>
-    <content type="html"><![CDATA[<h2>工具</h2>
-
-<h4><a href="http://watchdogforxcode.com/about/">Watchdog</a></h4>
-
-<p>Xcode 产生的缓存数据在 /Users/xxx/Library/Developer/Xcode/DerivedData，理论上讲，它会无限增大，你可以定期手动删除 DerivedData 文件夹，但终归有些麻烦。Watchdog 能让这件事更轻松，看看是不是对你有用，<a href="https://itunes.apple.com/us/app/watchdogforxcode/id734258109?mt=12">$1.99</a>。</p>
-
-<!-- more -->
-
-
-<h4><a href="https://github.com/qfish/XAlign">XAligh</a></h4>
-
-<p>代码自动排版的 Xcode 插件。</p>
-
-<h4><a href="https://github.com/ricobeck/KFCocoaPodsPlugin">KFCocoaPodsPlugin</a></h4>
-
-<p>方便在 Xcode 中操作 CocoaPods 的插件。</p>
-
-<h2>代码</h2>
-
-<h4><a href="https://github.com/lyokato/FBDigitalFont">FBDigitalFont</a> / <a href="https://github.com/lyokato/FBGlowLabel">FBGlowLabel</a></h4>
-
-<p>来自 @lyokato 的“亮瞎”系列，亮瞎字体和亮瞎标签。</p>
-
-<h4><a href="https://github.com/rexfinn/RFMarkdownTextView">RFMarkdownTextView</a></h4>
-
-<p>继承自 UITextView，自动在键盘上方加 Markdown 的常用符号。</p>
-
-<h2>文章</h2>
-
-<h4><a href="http://nshipster.com/nsnotification-and-nsnotificationcenter/">NSNotification</a> / <a href="http://nshipster.com/nsfilemanager/">NSFilemanager</a></h4>
-
-<p>NSHipster 最近的两篇文章，关于 NSNotification 和 NSFilemanager。</p>
-
-<h4><a href="http://lianxu.me/blog/2012/11/14/10-cocoa-objc-newbie-problems">10个迷惑新手的Cocoa&amp;Objective-C开发问题</a></h4>
-
-<p>虽然作者没有把坑填平…依然是一篇好文，值得一读。</p>
-
-<h2>设计</h2>
-
-<h4><a href="https://hackdesign.org/toolkit/ios-design/">The best design tools for iOS Design</a></h4>
-
-<p><a href="https://hackdesign.org">Hack Design</a> 整理的<a href="https://hackdesign.org/toolkit/">最佳设计工具集</a>。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[iDev Weekly #4]]></title>
-    <link href="http://yangfei.me/blog/idevweekly-4/"/>
-    <updated>2013-11-26T18:00:00+08:00</updated>
-    <id>http://yangfei.me/blog/idevweekly-4</id>
-    <content type="html"><![CDATA[<h2>文章</h2>
-
-<h4>• <a href="http://onevcat.com/2013/11/ios-iap-checklist/">iOS 内购实现及测试 Check List</a></h4>
-
-<p>如果你在搞 IAP 的时候遇到问题，看 @onevcat 这篇就行了。</p>
-
-<!-- more -->
-
-
-<h4>• <a href="http://beyondvincent.com/blog/2013/11/21/123-build-process/">iOS 程序的 Build 过程</a></h4>
-
-<p>上期推荐了 objc.io #6 Build Tools，破船翻译了其中的一篇。</p>
-
-<h2>工具</h2>
-
-<h4>• <a href="https://github.com/hzlzh/Best-App">Best App</a></h4>
-
-<p>收集 &amp; 推荐优秀的 Apps (Mac OS &amp; iOS)。</p>
-
-<h4>• <a href="http://davander.com/podlife.html">Podlife</a></h4>
-
-<p>监控、查看、搜索 Cocoapods 项目的 app。</p>
-
-<h4>• <a href="http://shinydevelopment.com/status-magic/">Status Magic</a></h4>
-
-<p>快速定制完美的状态栏，节省开发者制作 app 截图的时间，¥45。如果你熟悉 Python 的话，可以自己动手，丰衣足食，<a href="http://www.leancrew.com/all-this/2013/11/again-with-the-statusbar-cleaning/">《Again with the statusbar cleaning》</a>。</p>
-
-<h2>代码</h2>
-
-<h4>• <a href="https://github.com/yackle/CLImageEditor">CLImageEditor</a></h4>
-
-<p>功能齐全的图片编辑器。</p>
-
-<h4>• <a href="https://github.com/andrealufino/ALSystemUtilities">ALSystemUtilities</a></h4>
-
-<p>提供非常全的系统数据，如：电量、剩余空间、内存、网络、运营商等超过70个方法。还有一个类似的库： <a href="https://github.com/Shmoopi/iOS-System-Services">iOS-System-Services</a>。</p>
-
-<h4>• <a href="https://github.com/xiaodao/UIDynamicExample">UIDynamicExample</a></h4>
-
-<p>iOS 7 动态特性的示例，包括重力、碰撞、粘附、捕获等。</p>
-
-<h4>• <a href="https://github.com/CooperRS/RMStepsController">RMStepsController</a></h4>
-
-<p>步骤条，适合有多步操作逻辑的界面。</p>
-
-<h2>设计</h2>
-
-<h4>• <a href="http://www.squarespace.com/apps">Squarespace</a></h4>
-
-<p>最近给我深刻印象的设计是 Squarespace 出品的一系列 app，极度简约，有中国水墨画的味道。各位体验下。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[iDev Weekly #3]]></title>
-    <link href="http://yangfei.me/blog/idevweekly-3/"/>
-    <updated>2013-11-12T18:00:00+08:00</updated>
-    <id>http://yangfei.me/blog/idevweekly-3</id>
-    <content type="html"><![CDATA[<h2>文章</h2>
-
-<h4>• <a href="http://www.objc.io/issue-6/">objc.io #6 Build Tools</a></h4>
-
-<p>objc.io 是月刊，内容很有深度。这是第六期《关于构建工具》。</p>
-
-<!-- more -->
-
-
-<h4>• <a href="http://www.yangzhiping.com/psy/startup.html">iOS 7 人机界面指南</a></h4>
-
-<p>腾讯ISUX设计团队翻译了几篇文章：</p>
-
-<ul>
-<li><a href="http://isux.tencent.com/ios-human-interface-guidelines-ui-design-basics-ios7.html">iOS 人机界面指南（界面设计基础部分）</a></li>
-<li><a href="http://isux.tencent.com/ios-human-interface-guidelines-ui-design-ios7-ui-1.html">iOS 人机界面指南（UI元素（上））</a></li>
-<li><a href="http://isux.tencent.com/ios-human-interface-guidelines-ui-design-ios7-ui-2.html">iOS 人机界面指南（UI元素（下））</a></li>
-</ul>
-
-
-<h2>开源代码</h2>
-
-<h4>• <a href="https://github.com/robb/RBBAnimation/">RBBAnimation</a></h4>
-
-<p>iOS 7 之后，动画显得愈加重要。RBBAnimation 让动画写起来更简单，它继承于 CAKeyframeAnimation，可以方便地通过 block 定义你的动画。</p>
-
-<h4>• <a href="https://github.com/mysterioustrousers/MTMigration">MTMigration</a></h4>
-
-<p>有时候需要在不同版本执行不同的代码，MTMigration 可以让这部分变得简单。</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>[MTMigration migrateToVersion:@"0.9" block:^{
-</span><span class='line'>    // Some 0.9 stuff
-</span><span class='line'>}];
-</span><span class='line'>
-</span><span class='line'>[MTMigration migrateToVersion:@"1.0" block:^{
-</span><span class='line'>    // Some 1.0 stuff
-</span><span class='line'>}];</span></code></pre></td></tr></table></div></figure>
-
-
-<h4>• <a href="https://github.com/mineschan/MZTimerLabel">MZTimerLabel</a></h4>
-
-<p>最近的 countdown label 不少，还有几个：</p>
-
-<ul>
-<li><a href="https://github.com/TriggerTrap/TTCounterLabel">TTCounterLabel</a></li>
-<li><a href="https://github.com/ChrisXu1221/CXCountDownLabel">CXCountDownLabel</a></li>
-<li><a href="https://github.com/MattFoley/MFLTransformingDigits">MFLTransformingDigits</a> 这个不是 label，是 view。效果很炫。</li>
-</ul>
-
-
-<h4>• <a href="https://github.com/mariohahn/MHDismissModalView/">MHDismissModalView</a></h4>
-
-<p>下拉的手势可以 dismiss 掉 modalView，很有趣的细节。</p>
-
-<h4>• <a href="https://github.com/kevinzhow/PNChart">PNChart</a></h4>
-
-<p>简单、漂亮的线状图/柱状图。</p>
-
-<h4>• <a href="https://github.com/lgaches/BeaconEmitter">BeaconEmitter</a> / <a href="https://github.com/mttrb/BeaconOSX">BeaconOSX</a></h4>
-
-<p>将 Mac 变成 iBeacon。</p>
-
-<h2>开源项目</h2>
-
-<h4>• <a href="https://github.com/Ink/ThatPhoto">ThatPhoto</a></h4>
-
-<p>完整的图片编辑 app。是 Ink 的开源项目之一，另外几个：</p>
-
-<ul>
-<li><a href="https://github.com/Ink/ThatInbox">ThatInbox</a></li>
-<li><a href="https://github.com/Ink/ThatPDF">ThatPDF</a></li>
-<li><a href="https://github.com/Ink/ThatCloud">ThatCloud</a></li>
-</ul>
-
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[让构建和测试变得更轻松：xctool]]></title>
@@ -272,7 +25,7 @@
 <!-- more -->
 
 
-<p>例如 <a href="http://cocoapods.org/">CocoaPods</a>，它充分证明了科技和社区结合的威力。两年间，有超过 2700 个开源的库或框架被添加进去，你只需要简单的命令行 &ndash; <code>pod install</code>，就可以轻松管理第三方库。</p>
+<p>例如 <a href="http://cocoapods.org/">CocoaPods</a>，它充分证明了科技和社区结合的威力。两年间，有超过 2700 个开源的库或框架被添加进去，你只需要简单的命令行 - <code>pod install</code>，就可以轻松管理第三方库。</p>
 
 <p>开源社区对于 iOS 和 Mac OS X 开发的各个方面都有着巨大贡献，第三方库管理只是其中一个，其他方面还包括<a href="http://nomad-cli.com/">自动配置和分发</a>、<a href="http://www.quickradar.com/">报告BUG</a>、<a href="http://cocoadocs.org/">文档检索</a>等。</p>
 
@@ -361,32 +114,268 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[iDev Weekly #2]]></title>
-    <link href="http://yangfei.me/blog/idevweekly-2/"/>
-    <updated>2013-11-05T18:00:00+08:00</updated>
-    <id>http://yangfei.me/blog/idevweekly-2</id>
-    <content type="html"><![CDATA[<h5>• <a href="http://ionicons.com/">ionicons</a> / <a href="https://github.com/TapTemplate/ionicons-iOS">ionicons-iOS</a></h5>
+    <title type="html"><![CDATA[iDev Weekly]]></title>
+    <link href="http://yangfei.me/blog/idevweekly/"/>
+    <updated>2013-10-29T12:51:00+08:00</updated>
+    <id>http://yangfei.me/blog/idevweekly</id>
+    <content type="html"><![CDATA[<blockquote><p>这是仅有的几期 iDev Weekly 汇总，创业初期分身乏术，很早就没再更新，惭愧。类似周报可订阅：<a href="http://devtang.com/blog/archives/">devtang.com</a>、<a href="http://weekly.ios-wiki.com">ios-wiki.com</a>。</p></blockquote>
 
-<p>ionicons 是一套免费开源的图标字体，其中一半为 iOS 7 的系统图标，另一半风格也相似。ionicons-iOS 是他们提供的一个 iOS 库，使得在 iOS app 中使用 ionicons 非常方便，你可以作为 UIFont 使用，也可以作为 UILabel 和 UIImage。使用 ionicons 的好处是，你可以更自由地控制系统图标的大小、颜色，而且还有其他图标可选，更重要的是它支持 iOS 5+，这样你所有版本的 app 就可以保持统一的图标风格。</p>
+<h2>工具</h2>
+
+<h5><a href="http://www.apportable.com/">Apportable</a></h5>
+
+<p>用 Objective-C 能写 Android 应用吗？答案是：YES！</p>
+
+<p>Apportable 是一个把 iOS app 转换成 Android app 的工具，它支持 UIKit、CoreData、CoreAnimation、Cocos2D，甚至支持 Android 版的“推送”和“StoreKit”。这确实挺屌的，竟然能用 Objective-C 完成安卓的各种功能，甚至支持 Android 特有的硬件返回按钮。通过他们的介绍视频可以看到，把 iOS 版本转换成 Android 版本成本低了很多，也许移植过程会有一些注意事项，但确实是一个非常有趣非常棒的工具。</p>
 
 <!-- more -->
 
 
-<p><img src="http://yangfei.me/images/2013-11-05-pic-0.png"></p>
+<h5><a href="http://chen.do/blog/2013/10/22/reverse-engineering-xcode-with-dtrace/?utm_source=iOS+Dev+Weekly&amp;utm_campaign=iOS_Dev_Weekly_Issue_117&amp;utm_medium=email">Xcode 插件: 自动补全增强版</a></h5>
+
+<p>Xcode 自带的 Code Sense 只能根据前缀自动补全，这经常让记单词捉急的人很抓狂。Jack Chen 写的这个插件采用动态模糊匹配，让自动补全更加智能，非常好用。妈妈再也不用担心你拼错单词了！</p>
+
+<h5><a href="https://github.com/facebook/ios-snapshot-test-case">iOS 界面测试</a></h5>
+
+<p>测试逻辑相对简单直接，但测试界面有时候比较棘手，你加了各种背景色、框框，却依然不直观。是不是对比UIView的尺寸和已知素材的尺寸更为便捷？Facebook 的工程师就写了这样一个测试类——FBSnapshotTestCase， 它用于测试“界面和图片资源的尺寸是否匹配”。如果你的app界面复杂素材多，可以试试。</p>
+
+<h5><a href="https://github.com/hzlzh/Best-App">Best App</a></h5>
+
+<p>收集 &amp; 推荐优秀的 Apps (Mac OS &amp; iOS)。</p>
+
+<h5><a href="http://davander.com/podlife.html">Podlife</a></h5>
+
+<p>监控、查看、搜索 Cocoapods 项目的 app。</p>
+
+<h5><a href="http://shinydevelopment.com/status-magic/">Status Magic</a></h5>
+
+<p>快速定制完美的状态栏，节省开发者制作 app 截图的时间，¥45。如果你熟悉 Python 的话，可以自己动手，丰衣足食，<a href="http://www.leancrew.com/all-this/2013/11/again-with-the-statusbar-cleaning/">《Again with the statusbar cleaning》</a>。</p>
+
+<h4><a href="http://watchdogforxcode.com/about/">Watchdog</a></h4>
+
+<p>Xcode 产生的缓存数据在 /Users/xxx/Library/Developer/Xcode/DerivedData，理论上讲，它会无限增大，你可以定期手动删除 DerivedData 文件夹，但终归有些麻烦。Watchdog 能让这件事更轻松，看看是不是对你有用，<a href="https://itunes.apple.com/us/app/watchdogforxcode/id734258109?mt=12">$1.99</a>。</p>
+
+<h4><a href="https://github.com/qfish/XAlign">XAligh</a></h4>
+
+<p>代码自动排版的 Xcode 插件。</p>
+
+<h4><a href="https://github.com/ricobeck/KFCocoaPodsPlugin">KFCocoaPodsPlugin</a></h4>
+
+<p>方便在 Xcode 中操作 CocoaPods 的插件。</p>
+
+<h2>代码</h2>
+
+<h5><a href="http://ronnqvi.st/controlling-animation-timing/">控制动画时间</a></h5>
+
+<p>CAMediaTiming 是 CAAnimation 的一个协议，跟时间相关的属性都在这里。这篇文章让你更深入地了解 CAMediaTiming，进而更灵活地控制动画的时间。</p>
+
+<h5><a href="http://sunsetlakesoftware.com/2013/10/21/optimizing-gaussian-blurs-mobile-gpu">高斯模糊的算法优化</a></h5>
+
+<p>GPUImage 是一个非常著名的图像处理的库，iOS 7 发布后，作者重写了 GPUImage 库中的高斯模糊控件，如果对优化高斯模糊算法的过程有兴趣，可以仔细看看。</p>
+
+<h5><a href="https://github.com/path/FastImageCache">FastImageCache</a></h5>
+
+<p>图片的载入速度很重要，特别是多图快速滚动时的流畅度，某种程度上决定了 App 的用户体验。App 用户体验标杆 Path 给出了他们的解决方案，开源了他们存取图片的框架，值得借鉴学习。</p>
+
+<h5><a href="http://www.sprite-kit.com/">Sprite Kit</a></h5>
+
+<p>是不是觉得学习 Sprite Kit 的资料有点少？这里有个专门介绍 Sprite Kit 的网站，不错，收藏。</p>
+
+<h5><a href="https://github.com/lazerwalker/MWOpenInKit">MWOpenInKit</a></h5>
+
+<p>方向很好，目标是增强版的 UIActivityViewController，提供更丰富的 app 跳转。但现在还不够强大，期待更多人贡献代码。</p>
+
+<h5><a href="https://github.com/Jawbone/JBChartView">JBChartView</a></h5>
+
+<p>Jawbone 公司开源的线状图柱状图组件。</p>
+
+<h5><a href="https://github.com/terryworona/TWMessageBarManager">TWMessageBarManager</a></h5>
+
+<p>清爽的消息提示条。</p>
+
+<h5><a href="https://github.com/shu223/PulsingHalo">PulsingHalo</a></h5>
+
+<p>脉冲动画，可用于 iBeacon 或者地图的 annotation。</p>
+
+<h5><a href="https://github.com/robb/RBBAnimation/">RBBAnimation</a></h5>
+
+<p>iOS 7 之后，动画显得愈加重要。RBBAnimation 让动画写起来更简单，它继承于 CAKeyframeAnimation，可以方便地通过 block 定义你的动画。</p>
+
+<h5><a href="https://github.com/mysterioustrousers/MTMigration">MTMigration</a></h5>
+
+<p>有时候需要在不同版本执行不同的代码，MTMigration 可以让这部分变得简单。</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>[MTMigration migrateToVersion:@"0.9" block:^{
+</span><span class='line'>// Some 0.9 stuff
+</span><span class='line'>}];
+</span><span class='line'>
+</span><span class='line'>[MTMigration migrateToVersion:@"1.0" block:^{
+</span><span class='line'>// Some 1.0 stuff
+</span><span class='line'>}];</span></code></pre></td></tr></table></div></figure>
+
+
+<h5><a href="https://github.com/mineschan/MZTimerLabel">MZTimerLabel</a></h5>
+
+<p>最近的 countdown label 不少，还有几个：</p>
+
+<ul>
+<li><a href="https://github.com/TriggerTrap/TTCounterLabel">TTCounterLabel</a></li>
+<li><a href="https://github.com/ChrisXu1221/CXCountDownLabel">CXCountDownLabel</a></li>
+<li><a href="https://github.com/MattFoley/MFLTransformingDigits">MFLTransformingDigits</a> 这个不是 label，是 view。效果很炫。</li>
+</ul>
+
+
+<h5><a href="https://github.com/mariohahn/MHDismissModalView/">MHDismissModalView</a></h5>
+
+<p>下拉的手势可以 dismiss 掉 modalView，很有趣的细节。</p>
+
+<h5><a href="https://github.com/kevinzhow/PNChart">PNChart</a></h5>
+
+<p>简单、漂亮的线状图/柱状图。</p>
+
+<h5><a href="https://github.com/lgaches/BeaconEmitter">BeaconEmitter</a> / <a href="https://github.com/mttrb/BeaconOSX">BeaconOSX</a></h5>
+
+<p>将 Mac 变成 iBeacon。</p>
+
+<h5><a href="https://github.com/yackle/CLImageEditor">CLImageEditor</a></h5>
+
+<p>功能齐全的图片编辑器。</p>
+
+<h5><a href="https://github.com/andrealufino/ALSystemUtilities">ALSystemUtilities</a></h5>
+
+<p>提供非常全的系统数据，如：电量、剩余空间、内存、网络、运营商等超过70个方法。还有一个类似的库： <a href="https://github.com/Shmoopi/iOS-System-Services">iOS-System-Services</a>。</p>
+
+<h5><a href="https://github.com/xiaodao/UIDynamicExample">UIDynamicExample</a></h5>
+
+<p>iOS 7 动态特性的示例，包括重力、碰撞、粘附、捕获等。</p>
+
+<h5><a href="https://github.com/CooperRS/RMStepsController">RMStepsController</a></h5>
+
+<p>步骤条，适合有多步操作逻辑的界面。</p>
+
+<h5><a href="https://github.com/lyokato/FBDigitalFont">FBDigitalFont</a> / <a href="https://github.com/lyokato/FBGlowLabel">FBGlowLabel</a></h5>
+
+<p>来自 @lyokato 的“亮瞎”系列，亮瞎字体和亮瞎标签。</p>
+
+<h5><a href="https://github.com/rexfinn/RFMarkdownTextView">RFMarkdownTextView</a></h5>
+
+<p>继承自 UITextView，自动在键盘上方加 Markdown 的常用符号。</p>
+
+<h2>设计</h2>
+
+<h5><a href="http://blog.jaredsinclair.com/post/64880801326/untouchable">不可触摸</a></h5>
+
+<p>大破才能大立，iOS 7 肯定是大破了，立没立从6月份到现在大家都还在讨论。。。我个人非常喜欢 iOS 7 带来的新鲜，非常喜欢各种线、各种“撑到边”、各种越看越好看的配色（特别强调“音乐”和“天气”两个Icon，简直完美！），但也有不喜欢的地方，比如毫无质感的Dock条、违和的GameCenter立体气泡、冗长的Zoom动画、所有按钮无边框……世界上没有所有人都喜欢的设计，每个人也都有自己的偏好，针对“所有按钮无边框”这一点，Jared Sinclair 写出了他自己的看法。</p>
+
+<h5><a href="http://apple4us.com/2013/10/make-your-fancy-ui-and-interaction-get-out-of-my-way.html">不要让用户惊艳</a></h5>
+
+<p>阅读不同观点能够激发你对设计的深入思考，这篇文章是唐茶创始人李如一对于上文《不可触摸》的一次思考。</p>
+
+<h5><a href="http://www.squarespace.com/apps">Squarespace</a></h5>
+
+<p>最近给我深刻印象的设计是 Squarespace 出品的一系列 app，极度简约，有中国水墨画的味道。各位体验下。</p>
+
+<h5><a href="https://hackdesign.org/toolkit/ios-design/">The best design tools for iOS Design</a></h5>
+
+<p><a href="https://hackdesign.org">Hack Design</a> 整理的<a href="https://hackdesign.org/toolkit/">最佳设计工具集</a>。</p>
+
+<h5><a href="http://speckyboy.com/2013/12/09/top-50-free-icon-sets-2013/">Top 50 Free Icon Sets From 2013</a></h5>
+
+<p>2013年最佳免费 Icon 合集。</p>
+
+<h5><a href="http://ionicons.com/">ionicons</a> / <a href="https://github.com/TapTemplate/ionicons-iOS">ionicons-iOS</a></h5>
+
+<p>ionicons 是一套免费开源的图标字体，其中一半为 iOS 7 的系统图标，另一半风格也相似。ionicons-iOS 是他们提供的一个 iOS 库，使得在 iOS app 中使用 ionicons 非常方便，你可以作为 UIFont 使用，也可以作为 UILabel 和 UIImage。使用 ionicons 的好处是，你可以更自由地控制系统图标的大小、颜色，而且还有其他图标可选，更重要的是它支持 iOS 5+，这样你所有版本的 app 就可以保持统一的图标风格。
+<img src="http://yangfei.me/images/2013-11-05-pic-0.png"></p>
+
+<h5><a href="http://www.appcoda.com/customize-navigation-status-bar-ios-7">自定义 iOS 7 中 Navigation Bar 和 Status Bar</a></h5>
+
+<p>iOS 7 中 Navigation Bar 和 Status Bar 的风格有着非常明显的变化，这篇文章系统地讲解了如何对其自定义。（本文有<a href="http://beyondvincent.com/blog/2013/11/03/120-customize-navigation-status-bar-ios-7/">中文翻译</a> By 破船之家）</p>
+
+<h5><a href="http://bradfrostweb.com/blog/post/float-label-pattern/">浮动式表单标签设计</a></h5>
+
+<p>一种新颖的表单交互设计，非常棒。（本文有<a href="http://beforweb.com/node/337">中文翻译</a> By C7210）
+<img src="http://yangfei.me/images/2013-11-05-pic-1.gif"></p>
+
+<h2>文章</h2>
+
+<h5><a href="http://www.yangzhiping.com/psy/startup.html">写给创业者的六个心理学原理</a></h5>
+
+<p>阳志平的个人网站是我最喜欢的博客之一，阳老师的文章读起来很酣畅，品起来受益匪浅，总之对他的文章充满期待。这是前几天新增的博文，分上下两篇。</p>
+
+<h5><a href="http://www.objc.io/issue-6/">objc.io #6 Build Tools</a></h5>
+
+<p>objc.io 是月刊，内容很有深度。这是第六期《关于构建工具》。</p>
+
+<h5><a href="http://www.yangzhiping.com/psy/startup.html">iOS 7 人机界面指南</a></h5>
+
+<p>腾讯ISUX设计团队翻译了几篇文章：</p>
+
+<ul>
+<li><a href="http://isux.tencent.com/ios-human-interface-guidelines-ui-design-basics-ios7.html">iOS 人机界面指南（界面设计基础部分）</a></li>
+<li><a href="http://isux.tencent.com/ios-human-interface-guidelines-ui-design-ios7-ui-1.html">iOS 人机界面指南（UI元素（上））</a></li>
+<li><a href="http://isux.tencent.com/ios-human-interface-guidelines-ui-design-ios7-ui-2.html">iOS 人机界面指南（UI元素（下））</a></li>
+</ul>
+
+
+<h5><a href="http://onevcat.com/2013/11/ios-iap-checklist/">iOS 内购实现及测试 Check List</a></h5>
+
+<p>如果你在搞 IAP 的时候遇到问题，看 @onevcat 这篇就行了。</p>
+
+<h5><a href="http://beyondvincent.com/blog/2013/11/21/123-build-process/">iOS 程序的 Build 过程</a></h5>
+
+<p>上期推荐了 objc.io #6 Build Tools，破船翻译了其中的一篇。</p>
+
+<h5><a href="http://nshipster.com/nsnotification-and-nsnotificationcenter/">NSNotification</a> / <a href="http://nshipster.com/nsfilemanager/">NSFilemanager</a></h5>
+
+<p>NSHipster 最近的两篇文章，关于 NSNotification 和 NSFilemanager。</p>
+
+<h5><a href="http://lianxu.me/blog/2012/11/14/10-cocoa-objc-newbie-problems">10个迷惑新手的Cocoa&amp;Objective-C开发问题</a></h5>
+
+<p>虽然作者没有把坑填平…依然是一篇好文，值得一读。</p>
+
+<h5><a href="http://engineering.linkedin.com/mobile/linkedin-intro-doing-impossible-ios?utm_source=iOS+Dev+Weekly&amp;utm_campaign=iOS_Dev_Weekly_Issue_117&amp;utm_medium=email">LinkedIn Intro: Doing the Impossible on iOS</a></h5>
+
+<p>LinkedIn Intro 是 LinkedIn 推出的一款新产品，它能把你的 LinkedIn 个人介绍嵌入到 iPhone 邮件客户端中。不知道哪些人会喜欢这个功能，我只是好奇他们是如何做到的。有兴趣的点开链接查看具体的实现方法。
+<img src="http://yangfei.me/images/2013-10-29-pic-0.png"></p>
+
+<h2>开源项目</h2>
+
+<h5><a href="https://github.com/Ink/ThatPhoto">ThatPhoto</a></h5>
+
+<p>完整的图片编辑 app。是 Ink 的开源项目之一，另外几个：</p>
+
+<ul>
+<li><a href="https://github.com/Ink/ThatInbox">ThatInbox</a></li>
+<li><a href="https://github.com/Ink/ThatPDF">ThatPDF</a></li>
+<li><a href="https://github.com/Ink/ThatCloud">ThatCloud</a></li>
+</ul>
+
+
+<h5><a href="https://github.com/nicklockwood/Concurrency">Concurrency</a></h5>
+
+<p>App Store 中一款汇率转化的 app。</p>
+
+<h2>其他</h2>
+
+<h5><a href="https://itunes.apple.com/us/app/id777716569?mt=8">12 Days of Gifts</a></h5>
+
+<p>苹果推出的圣诞主题的 app。</p>
+
+<h5><a href="http://asciiwwdc.com/contribute">ASCIIwwdc 2012</a></h5>
+
+<p>2012 年的 WWDC sessions 是没有字幕的，如果你有兴趣听写出来，可以给 ASCIIwwdc 项目做贡献。</p>
 
 <h5>• <a href="http://yangfei.me/blog/2013-11-06-xctool/">让构建/测试(build/test)变得更轻松：xctool</a></h5>
 
 <p>xctool 是 Fred Potter 的开源项目，来自于他在 Facebook 工作中创建的自动构建系统。xctool 用于替换 Xcode.app 中的 xcodebuild，让构建和测试变得更轻松。</p>
-
-<h5>• <a href="http://www.appcoda.com/customize-navigation-status-bar-ios-7">自定义 iOS 7 中 Navigation Bar 和 Status Bar</a></h5>
-
-<p>iOS 7 中 Navigation Bar 和 Status Bar 的风格有着非常明显的变化，这篇文章系统地讲解了如何对其自定义。（本文有<a href="http://beyondvincent.com/blog/2013/11/03/120-customize-navigation-status-bar-ios-7/">中文翻译</a> By 破船之家）</p>
-
-<h5>• <a href="http://bradfrostweb.com/blog/post/float-label-pattern/">浮动式表单标签设计</a></h5>
-
-<p>一种新颖的表单交互设计，非常棒。（本文有<a href="http://beforweb.com/node/337">中文翻译</a> By C7210）</p>
-
-<p><img src="http://yangfei.me/images/2013-11-05-pic-1.gif"></p>
 
 <h5>• <a href="http://www.shinobicontrols.com/blog/posts/2013/09/19/introducing-ios7-day-by-day/">每天一篇 • iOS 7 新特性</a></h5>
 
@@ -418,74 +407,6 @@
 <li>Day 24 :: <a href="http://www.shinobicontrols.com/blog/posts/2013/10/23/ios7-day-by-day-day-24-the-end/">The End</a></li>
 </ul>
 
-
-<h3>其他</h3>
-
-<h4>• <a href="http://www.yangzhiping.com/psy/startup.html">写给创业者的六个心理学原理</a></h4>
-
-<p>阳志平的个人网站是我最喜欢的博客之一，阳老师的文章读起来很酣畅，品起来受益匪浅，总之对他的文章充满期待。这是前几天新增的博文，分上下两篇。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[iDev Weekly #1]]></title>
-    <link href="http://yangfei.me/blog/idevweekly-1/"/>
-    <updated>2013-10-29T12:51:00+08:00</updated>
-    <id>http://yangfei.me/blog/idevweekly-1</id>
-    <content type="html"><![CDATA[<h3>新闻</h3>
-
-<h5><a href="http://engineering.linkedin.com/mobile/linkedin-intro-doing-impossible-ios?utm_source=iOS+Dev+Weekly&amp;utm_campaign=iOS_Dev_Weekly_Issue_117&amp;utm_medium=email">LinkedIn Intro: Doing the Impossible on iOS</a></h5>
-
-<p>LinkedIn Intro 是 LinkedIn 推出的一款新产品，它能把你的 LinkedIn 个人介绍嵌入到 iPhone 邮件客户端中。不知道哪些人会喜欢这个功能，我只是好奇他们是如何做到的。有兴趣的点开链接查看具体的实现方法。</p>
-
-<!-- more -->
-
-
-<p><img src="http://yangfei.me/images/2013-10-29-pic-0.png"></p>
-
-<h3>工具</h3>
-
-<h5><a href="http://www.apportable.com/">Apportable</a></h5>
-
-<p>用 Objective-C 能写 Android 应用吗？答案是：YES！</p>
-
-<p>Apportable 是一个把 iOS app 转换成 Android app 的工具，它支持 UIKit、CoreData、CoreAnimation、Cocos2D，甚至支持 Android 版的“推送”和“StoreKit”。这确实挺屌的，竟然能用 Objective-C 完成安卓的各种功能，甚至支持 Android 特有的硬件返回按钮。通过他们的介绍视频可以看到，把 iOS 版本转换成 Android 版本成本低了很多，也许移植过程会有一些注意事项，但确实是一个非常有趣非常棒的工具。</p>
-
-<h5><a href="http://chen.do/blog/2013/10/22/reverse-engineering-xcode-with-dtrace/?utm_source=iOS+Dev+Weekly&amp;utm_campaign=iOS_Dev_Weekly_Issue_117&amp;utm_medium=email">Xcode 插件: 自动补全增强版</a></h5>
-
-<p>Xcode 自带的 Code Sense 只能根据前缀自动补全，这经常让记单词捉急的人很抓狂。Jack Chen 写的这个插件采用动态模糊匹配，让自动补全更加智能，非常好用。妈妈再也不用担心你拼错单词了！</p>
-
-<h5><a href="https://github.com/facebook/ios-snapshot-test-case">iOS 界面测试</a></h5>
-
-<p>测试逻辑相对简单直接，但测试界面有时候比较棘手，你加了各种背景色、框框，却依然不直观。是不是对比UIView的尺寸和已知素材的尺寸更为便捷？Facebook 的工程师就写了这样一个测试类——FBSnapshotTestCase， 它用于测试“界面和图片资源的尺寸是否匹配”。如果你的app界面复杂素材多，可以试试。</p>
-
-<h3>代码</h3>
-
-<h5><a href="http://ronnqvi.st/controlling-animation-timing/">控制动画时间</a></h5>
-
-<p>CAMediaTiming 是 CAAnimation 的一个协议，跟时间相关的属性都在这里。这篇文章让你更深入地了解 CAMediaTiming，进而更灵活地控制动画的时间。</p>
-
-<h5><a href="http://sunsetlakesoftware.com/2013/10/21/optimizing-gaussian-blurs-mobile-gpu">高斯模糊的算法优化</a></h5>
-
-<p>GPUImage 是一个非常著名的图像处理的库，iOS 7 发布后，作者重写了 GPUImage 库中的高斯模糊控件，如果对优化高斯模糊算法的过程有兴趣，可以仔细看看。</p>
-
-<h5><a href="https://github.com/path/FastImageCache">FastImageCache</a></h5>
-
-<p>图片的载入速度很重要，特别是多图快速滚动时的流畅度，某种程度上决定了 App 的用户体验。App 用户体验标杆 Path 给出了他们的解决方案，开源了他们存取图片的框架，值得借鉴学习。</p>
-
-<h5><a href="http://www.sprite-kit.com/">Sprite Kit</a></h5>
-
-<p>是不是觉得学习 Sprite Kit 的资料有点少？这里有个专门介绍 Sprite Kit 的网站，不错，收藏。</p>
-
-<h3>设计</h3>
-
-<h5><a href="http://blog.jaredsinclair.com/post/64880801326/untouchable">不可触摸</a></h5>
-
-<p>大破才能大立，iOS 7 肯定是大破了，立没立从6月份到现在大家都还在讨论。。。我个人非常喜欢 iOS 7 带来的新鲜，非常喜欢各种线、各种“撑到边”、各种越看越好看的配色（特别强调“音乐”和“天气”两个Icon，简直完美！），但也有不喜欢的地方，比如毫无质感的Dock条、违和的GameCenter立体气泡、冗长的Zoom动画、所有按钮无边框……世界上没有所有人都喜欢的设计，每个人也都有自己的偏好，针对“所有按钮无边框”这一点，Jared Sinclair 写出了他自己的看法。</p>
-
-<h5><a href="http://apple4us.com/2013/10/make-your-fancy-ui-and-interaction-get-out-of-my-way.html">不要让用户惊艳</a></h5>
-
-<p>阅读不同观点能够激发你对设计的深入思考，这篇文章是唐茶创始人李如一对于上文《不可触摸》的一次思考。</p>
 ]]></content>
   </entry>
   
@@ -622,12 +543,12 @@
 <p>我觉得 Mattt 确实是个 hacker，并且是个非常具有开源精神的 hacker。他的很多项目我都觉得非常有趣，这里列出一些。更多信息关注他的Github账号(<a href="https://github.com/mattt">@mattt</a>)和Twitter账户(<a href="https://twitter.com/mattt">@mattt</a>)。</p>
 
 <ul>
-<li><a href="http://asciiwwdc.com/">asciiwwdc</a> &ndash; searchable full-text transcripts of WWDC sessions</li>
-<li><a href="http://afnetworking.com/">afnetworking 2.0</a> &ndash; a delightful networking library for iOS and Mac OS X</li>
-<li><a href="http://nshipster.com/">nshipster</a> &ndash; a journal of the overlooked bits in Objective-C and Cocoa</li>
-<li><a href="https://github.com/helios-framework/helios">helios</a> &ndash; an extensible open-source mobile backend framework</li>
-<li><a href="http://nomad-cli.com/">nomad</a> &ndash; world-class command line utilities for iOS development</li>
-<li><a href="http://rocket.github.io/">rocket</a> &ndash; a hybrid approach to real-time cloud applications</li>
+<li><a href="http://asciiwwdc.com/">asciiwwdc</a> - searchable full-text transcripts of WWDC sessions</li>
+<li><a href="http://afnetworking.com/">afnetworking 2.0</a> - a delightful networking library for iOS and Mac OS X</li>
+<li><a href="http://nshipster.com/">nshipster</a> - a journal of the overlooked bits in Objective-C and Cocoa</li>
+<li><a href="https://github.com/helios-framework/helios">helios</a> - an extensible open-source mobile backend framework</li>
+<li><a href="http://nomad-cli.com/">nomad</a> - world-class command line utilities for iOS development</li>
+<li><a href="http://rocket.github.io/">rocket</a> - a hybrid approach to real-time cloud applications</li>
 </ul>
 
 
@@ -658,17 +579,17 @@
 <h5>NSURLConnection (iOS 6 &amp; 7)</h5>
 
 <ul>
-<li><code>AFURLConnectionOperation</code> &ndash; 它继承于 NSOperation，负责管理 NSURLConnection，实现它的 delegate 方法。</li>
-<li><code>AFHTTPRequestOperation</code> &ndash; 它继承于 AFURLConnectionOperation，专门用于创建 HTTP 请求。2.0 的主要区别就是可以直接使用它，而不用再继承它，原因将会在下面的 Serialization 处解释。</li>
-<li><code>AFHTTPRequestOperationManager</code> &ndash; 封装 HTTP 请求的常见方式，GET / POST / PUT / DELETE / PATCH……</li>
+<li><code>AFURLConnectionOperation</code> - 它继承于 NSOperation，负责管理 NSURLConnection，实现它的 delegate 方法。</li>
+<li><code>AFHTTPRequestOperation</code> - 它继承于 AFURLConnectionOperation，专门用于创建 HTTP 请求。2.0 的主要区别就是可以直接使用它，而不用再继承它，原因将会在下面的 Serialization 处解释。</li>
+<li><code>AFHTTPRequestOperationManager</code> - 封装 HTTP 请求的常见方式，GET / POST / PUT / DELETE / PATCH……</li>
 </ul>
 
 
 <h5>NSURLSession (iOS 7)</h5>
 
 <ul>
-<li><code>AFURLSessionManager</code> &ndash; 创建和管理 NSURLSession 对象，以及此对象的数据和下载/上传等任务，实现对象和任务的代理方法。NSURLSession 的 API 本身有一些局限，AFURLSessionManager 能使其变得更好用。</li>
-<li><p><code>AFHTTPSessionManager</code> &ndash; 它继承于 AFURLSessionManager，封装了 HTTP 请求的常见方式，GET / POST / PUT / DELETE / PATCH……</p>
+<li><code>AFURLSessionManager</code> - 创建和管理 NSURLSession 对象，以及此对象的数据和下载/上传等任务，实现对象和任务的代理方法。NSURLSession 的 API 本身有一些局限，AFURLSessionManager 能使其变得更好用。</li>
+<li><p><code>AFHTTPSessionManager</code> - 它继承于 AFURLSessionManager，封装了 HTTP 请求的常见方式，GET / POST / PUT / DELETE / PATCH……</p>
 
 <p><em>总的来说：为了支持最新的 NSURLSession 接口，同时兼容旧的 NSURLConnection，2.0 的核心组件将“网络请求”和“任务处理”分离。 AFHTTPRequestOperationManager 和 AFHTTPSessionManager 提供相似的功能，切换很方便，所以从 iOS 6 移植到 iOS 7 会很容易。之前绑在 AFHTTPClient 里的 serialization、security 和 reachability 模型都被分离了出来，基于 NSURLSession 和 NSURLConnection 的 API 都可复用这些模型。</em></p></li>
 </ul>
@@ -683,7 +604,7 @@
 <p>AFNetworking 支持 <a href="http://blog.lumberlabs.com/2012/04/why-app-developers-should-care-about.html">SSL pinning</a>。这对涉及敏感数据的 App 很重要。</p>
 
 <ul>
-<li><code>AFSecurityPolicy</code> &ndash; 这个类通过特定证书和公共密钥评估链接的安全性和可信任度。在你的 App bundle 中添加服务器证书有助于防止“<a href="http://zh.wikipedia.org/wiki/%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%94%BB%E5%87%BB">中间人攻击</a>”。</li>
+<li><code>AFSecurityPolicy</code> - 这个类通过特定证书和公共密钥评估链接的安全性和可信任度。在你的 App bundle 中添加服务器证书有助于防止“<a href="http://zh.wikipedia.org/wiki/%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%94%BB%E5%87%BB">中间人攻击</a>”。</li>
 </ul>
 
 
@@ -692,14 +613,14 @@
 <p>另一个从 AFHTTPClient 中分离的功能是网络的可达性。现在你可以单独使用它，或者作为 AFHTTPRequestOperationManager / AFHTTPSessionManager 的一个属性。</p>
 
 <ul>
-<li><code>AFNetworkReachabilityManager</code> &ndash; 负责监控当前的网络可达性，当网络的可达性发生改变时，提供相应的 callback 和通知。</li>
+<li><code>AFNetworkReachabilityManager</code> - 负责监控当前的网络可达性，当网络的可达性发生改变时，提供相应的 callback 和通知。</li>
 </ul>
 
 
 <h5>实时</h5>
 
 <ul>
-<li><code>AFEventSource</code> &ndash; 用 Objective-C 实现的 <a href="http://en.wikipedia.org/wiki/Server-sent_events">EventSource DOM API</a>。客户端和服务器建立一个长链接，服务器会把新的 Event 实时推给客户端。客户端收到的信息格式是<a href="http://tools.ietf.org/html/rfc6902">JSON Patch</a>，然后 JSON Patch 被转化为 AFJSONPatchOperation 对象。示例代码参考：</li>
+<li><code>AFEventSource</code> - 用 Objective-C 实现的 <a href="http://en.wikipedia.org/wiki/Server-sent_events">EventSource DOM API</a>。客户端和服务器建立一个长链接，服务器会把新的 Event 实时推给客户端。客户端收到的信息格式是<a href="http://tools.ietf.org/html/rfc6902">JSON Patch</a>，然后 JSON Patch 被转化为 AFJSONPatchOperation 对象。示例代码参考：</li>
 </ul>
 
 
@@ -720,23 +641,23 @@
 <span class='line-number'>15</span>
 <span class='line-number'>16</span>
 <span class='line-number'>17</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>NSURL *URL <span class="o">=</span> <span class="o">[</span>NSURL URLWithString:@<span class="s2">&quot;http://example.com&quot;</span><span class="o">]</span>;
-</span><span class='line'>AFHTTPSessionManager *manager <span class="o">=</span> <span class="o">[[</span>AFHTTPClient alloc<span class="o">]</span> initWithBaseURL:URL<span class="o">]</span>;
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>NSURL *URL <span class="o">=</span> <span class="o">[</span>NSURL URLWithString:@<span class="s2">&quot;http://example.com&quot;</span><span class="o">]</span><span class="p">;</span>
+</span><span class='line'>AFHTTPSessionManager *manager <span class="o">=</span> <span class="o">[[</span>AFHTTPClient alloc<span class="o">]</span> initWithBaseURL:URL<span class="o">]</span><span class="p">;</span>
 </span><span class='line'><span class="o">[</span>manager GET:@<span class="s2">&quot;/resources&quot;</span> parameters:nil success:^<span class="o">(</span>NSHTTPURLResponse *response, id responseObject<span class="o">)</span> <span class="o">{</span>
-</span><span class='line'>    <span class="o">[</span>resources addObjectsFromArray:responseObject<span class="o">[</span>@<span class="s2">&quot;resources&quot;</span><span class="o">]]</span>;
+</span><span class='line'>    <span class="o">[</span>resources addObjectsFromArray:responseObject<span class="o">[</span>@<span class="s2">&quot;resources&quot;</span><span class="o">]]</span><span class="p">;</span>
 </span><span class='line'>
 </span><span class='line'>    <span class="o">[</span>manager SUBSCRIBE:@<span class="s2">&quot;/resources&quot;</span> usingBlock:^<span class="o">(</span>NSArray *operations, NSError *error<span class="o">)</span> <span class="o">{</span>
 </span><span class='line'>        <span class="k">for</span> <span class="o">(</span>AFJSONPatchOperation *operation in operations<span class="o">)</span> <span class="o">{</span>
 </span><span class='line'>            switch <span class="o">(</span>operation.type<span class="o">)</span> <span class="o">{</span>
-</span><span class='line'>                <span class="k">case </span>AFJSONAddOperationType:
-</span><span class='line'>                    <span class="o">[</span>resources addObject:operation.value<span class="o">]</span>;
-</span><span class='line'>                    <span class="nb">break</span>;
+</span><span class='line'>                <span class="k">case</span> AFJSONAddOperationType:
+</span><span class='line'>                    <span class="o">[</span>resources addObject:operation.value<span class="o">]</span><span class="p">;</span>
+</span><span class='line'>                    <span class="nb">break</span><span class="p">;</span>
 </span><span class='line'>                default:
-</span><span class='line'>                    <span class="nb">break</span>;
+</span><span class='line'>                    <span class="nb">break</span><span class="p">;</span>
 </span><span class='line'>            <span class="o">}</span>
 </span><span class='line'>        <span class="o">}</span>
-</span><span class='line'>    <span class="o">}</span> error:nil<span class="o">]</span>;
-</span><span class='line'><span class="o">}</span> failure:nil<span class="o">]</span>;
+</span><span class='line'>    <span class="o">}</span> error:nil<span class="o">]</span><span class="p">;</span>
+</span><span class='line'><span class="o">}</span> failure:nil<span class="o">]</span><span class="p">;</span>
 </span></code></pre></td></tr></table></div></figure>
 
 
